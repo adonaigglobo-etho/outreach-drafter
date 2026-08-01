@@ -67,24 +67,31 @@ def save_json(p, data):
     p.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 def parse_reply(text):
-    """Return (approved_numbers, rejected_numbers, special) from a reply line."""
-    t = (text or "").strip().lower()
+    """Return (approved_numbers, rejected_numbers, name_tokens, special)."""
+    raw = (text or "").strip()
+    t = raw.lower()
     if not t:
-        return set(), set(), None
+        return set(), set(), [], None
     if t in ("all", "todos", "todas"):
-        return set(), set(), "all"
+        return set(), set(), [], "all"
     if t in ("none", "ninguno", "ninguna"):
-        return set(), set(), "none"
+        return set(), set(), [], "none"
 
     nums = set(int(n) for n in re.findall(r"\b(\d{1,3})\b", t))
-    if not nums:
-        return set(), set(), None
 
-    # leading word decides polarity; default to approve (bare "3, 5" means yes)
+    # polarity from leading word; default approve
     first = re.split(r"[\s,]+", t)[0]
-    if first in REJECT:
-        return set(), nums, None
-    return nums, set(), None
+    reject = first in REJECT
+
+    # name tokens: words that aren't numbers, polarity words, or punctuation-only.
+    # Also ignore anything in parentheses is KEPT (people write "Yes 2 (Lars)").
+    words = re.findall(r"[a-zA-Zà-úÀ-Ú]{3,}", raw)
+    stop = APPROVE | REJECT | {"the", "and", "por", "para", "con"}
+    names = [w for w in words if w.lower() not in stop]
+
+    if reject:
+        return set(), nums, [], None
+    return nums, set(), names, None
 
 def harvest():
     token, chat = _creds()
@@ -115,6 +122,7 @@ def harvest():
     queue = load_json(QUEUE, [])
     have = {c.get("id") for c in queue}
     approved_nums, rejected_nums = set(), set()
+    approved_names = []
     special = None
     max_id = off
 
@@ -124,9 +132,10 @@ def harvest():
         # only accept replies from YOUR chat
         if str(msg.get("chat", {}).get("id")) != str(chat):
             continue
-        a, r, sp = parse_reply(msg.get("text", ""))
+        a, r, names, sp = parse_reply(msg.get("text", ""))
         approved_nums |= a
         rejected_nums |= r
+        approved_names.extend(names)
         if sp:
             special = sp
 
@@ -136,6 +145,15 @@ def harvest():
         approved_nums = set()
 
     approved_nums -= rejected_nums
+
+    # Resolve name tokens (e.g. "Lars", "Chittka") to index numbers by matching
+    # against each candidate's title. This is the unambiguous path and is checked
+    # against the SAME item the number labelled.
+    for tok in approved_names:
+        tl = tok.lower()
+        for num, rec in index.items():
+            if tl in (rec.get("title", "").lower()):
+                approved_nums.add(int(num))
 
     added, missing = 0, []
     for n in sorted(approved_nums):
