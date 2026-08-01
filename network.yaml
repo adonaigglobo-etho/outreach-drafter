@@ -1,0 +1,84 @@
+# ============================================================================
+# network.yaml  —  GROUND TRUTH for warm connections. YOU own this file.
+# ----------------------------------------------------------------------------
+# The mini-me (skill 2) may ONLY invoke a connection when drafting outreach if
+# that connection is written here. It must never infer, guess, or embellish a
+# relationship. If a tie isn't in this file, the email doesn't mention it.
+#
+# This is the single most important guardrail in the whole system: a warm-intro
+# claim is powerful when true and mortifying when wrong.
+#
+# Fields:
+#   target       : person or lab you might contact
+#   institution  : where they are
+#   topics       : why they're a fit (for the drafter's framing)
+#   connection   : the ACTUAL tie, in plain words (leave blank if none = cold)
+#   usable_as    : warm-intro | credibility-anchor | shared-interest | none
+#   confirm_with : who must OK being named before the draft can cite them
+#   status       : confirmed | needs_confirmation | cold
+#   note         : anything else the drafter should respect
+# ============================================================================
+
+me:
+  name: "(your name)"
+  pi: "Alex Taylor"
+  pi_can_be_named: needs_confirmation   # global default; per-entry can override
+
+connections:
+
+  - target: "Daniel Sol Rueda"
+    institution: "CREAF / CSIC, Barcelona"
+    topics: [behavioural flexibility, urban ecology, cognition-ecology interface, animal culture]
+    connection: "My PI Alex Taylor co-supervises / co-authors a PhD student with Daniel Sol, so there's an existing working relationship."
+    usable_as: warm-intro
+    confirm_with: "Alex Taylor"
+    status: needs_confirmation
+    note: >
+      Lead the email with the shared-coauthor tie, then bridge to my GLM-HMM
+      work on behavioural states since his group models flexibility. Do NOT name
+      Alex as a referee until he's confirmed he's happy to be named — surface
+      that check in the Telegram approval. Cleaner alternative: ask Alex to make
+      the intro directly.
+
+  - target: "Mathilde Eriksen"
+    openalex_id: ""            # fill when known, for exact matching
+    orcid: ""
+    institution: "Animal Minds group, University of Auckland"
+    topics: [comparative cognition, animal minds]
+    connection: "Same research group (Animal Minds) as me and my PI Alex Taylor; she is at the Auckland node, I am at UAB."
+    usable_as: shared-interest
+    confirm_with: ""
+    status: confirmed
+    note: "Colleague within the same lab network; nameable freely as a shared connection."
+
+  - target: "Harshkumar Nileshbhai Vasoya"
+    openalex_id: ""
+    orcid: ""
+    institution: "UAB (Universitat Autonoma de Barcelona)"
+    topics: [animal cognition, animal behaviour]
+    connection: "Direct labmate at UAB, same group as me and Alex Taylor."
+    usable_as: shared-interest
+    confirm_with: ""
+    status: confirmed
+    note: "UAB labmate; nameable as a colleague."
+
+  - target: "Duncan Angus Pottinger"
+    openalex_id: ""
+    orcid: ""
+    institution: "UAB (Universitat Autonoma de Barcelona)"
+    topics: [animal cognition, animal behaviour]
+    connection: "Direct labmate at UAB, same group as me and Alex Taylor."
+    usable_as: shared-interest
+    confirm_with: ""
+    status: confirmed
+    note: "UAB labmate; nameable as a colleague."
+
+  # Add more as you go. Example of a COLD target (no tie) for contrast:
+  # - target: "Some Lab PI"
+  #   institution: "..."
+  #   topics: [...]
+  #   connection: ""
+  #   usable_as: none
+  #   confirm_with: ""
+  #   status: cold
+  #   note: "No warm link — draft as a straight cold email on shared interest only."

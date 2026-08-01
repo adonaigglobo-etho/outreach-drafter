@@ -1,0 +1,115 @@
+# ============================================================================
+# about_me.yaml — VERIFIED facts about you. The drafter may ONLY state facts
+# written here. Anything not in this file must appear in a draft as a clearly
+# marked [BLANK: ...] for you to fill — never invented.
+#
+# Same principle as network.yaml: hand-written ground truth, never auto-edited.
+# ============================================================================
+
+identity:
+  name: "Adonai Gil"
+  email: "adonaigglobo@gmail.com"
+  linkedin: "linkedin.com/in/adonaigilgomezlobo"
+  languages:
+    spanish: native
+    english: "advanced (Cambridge certificate)"
+
+current_position:
+  role: "Contracted research assistant"
+  institution: "Universitat Autònoma de Barcelona (UAB)"
+  lab: "Animal Minds lab"
+  pi: "Alex Taylor"
+  note: >
+    Working on a project distinct from the thesis project. Intention is to keep
+    working until securing funding to start the PhD - realistically not before
+    September of next year.
+
+education:
+  - degree: "Grado en Psicología (Mención de Honor en Psicología de la Salud)"
+    institution: "Universidad del País Vasco (UPV/EHU)"
+    years: "2020-2025"
+    grade: "7,2 nota media"
+    relevant: [Evolución y Conducta, Fundamentos de Neurociencia Conductual,
+               Psicología Fisiológica, Diseños y Análisis de Datos,
+               Psicobiología del Desarrollo]
+
+  - degree: "Máster en Research on Behaviour and Cognition"
+    institution: "Universitat de Barcelona (UB)"
+    years: "2025-present"
+    grade: "TBD - master's overall average not yet final. DO NOT state a master's GPA."
+    relevant: [Animal Social Behaviour and Cognition, Origins of Human Behaviour,
+               Non-Verbal Communication, Workshop in Data Analysis,
+               Learning and Cognition, Behavioural Genetics, Computational Models]
+
+masters_thesis:
+  lab: "Animal Minds lab, UAB"
+  collaborators: ["Javier Rodríguez-Ferreiro", "Itxaso Barbería"]
+  collaborator_dept: "Departament de Cognició, Desenvolupament i Psicologia de l'Educació"
+  topic: "Decision-making in a two-alternative task"
+  methods: >
+    Hierarchical Bayesian models in R (brms, bayestestR, tidybayes, bayesplot,
+    emmeans) combined with GLM-HMM latent-state analysis (Markov states) to
+    characterise the animal's strategies, validated behaviourally. Trained several
+    DeepLabCut models for data collection and built a post-processing pipeline for
+    coordinates and optical distortion correction.
+  grade: "over 9,5 on the thesis report"
+  IMPORTANT: >
+    The 9,5 refers ONLY to the thesis report, NOT to the master's overall average.
+    Never present it as a degree GPA.
+
+skills:
+  programming: [Python, R, "some shell"]
+  behavioural_analysis: [DeepLabCut, "Ethovision XT", "Observer XT"]
+  stats_modelling: ["hierarchical Bayesian (brms)", GLM-HMM, Jamovi, SPSS, R]
+  experimental: ["experimental protocol design", "running experiments",
+                 "animal handling and restraint protocols training"]
+
+research_experience:
+  - role: "Laboratory assistant (student placement)"
+    project: >
+      Sex differences in the neurophysiological and behavioural response to chronic
+      social stress: effects on tumour development and depressive-like behaviour.
+    institution: "Departamento de Procesos Básicos, UPV/EHU"
+    years: "2022-2024"
+    duties: ["experimental protocol design", "behaviour analysis software",
+             "recording and animal restraint support"]
+
+  - role: "Research project design"
+    project: >
+      Effect of the parasite Cuterebra baeri on the biological fitness of the howler
+      monkey (Alouatta palliata) in Los Tuxtlas, Veracruz.
+    institution: "Instituto de Neuroetología, Universidad Veracruzana"
+    years: "September 2024 - April 2025"
+    duties: ["specialised literature review in parasitology, behavioural ecology and
+              primatology", "theoretical framework", "research question formulation",
+              "preliminary methodological planning"]
+
+interests:
+  research: [comparative cognition, animal behaviour, behavioural flexibility,
+             animal ecology, animal culture, cross-species comparison,
+             biodiversity, ethology]
+  approach: >
+    Interdisciplinary - combining psychological training with field and laboratory
+    research tools; quantitative and computational methods applied to comparative
+    behaviour.
+
+goals:
+  short_term: "Continue as a research assistant (open to part-time) while securing PhD funding."
+  medium_term: "Start a PhD, ideally funded by a grant, from ~September next year."
+
+volunteering:
+  # Available if a draft benefits from it (e.g. outreach/sci-comm framing). Use sparingly.
+  - ["Katubihotz animal shelter", "2021"]
+  - ["Cruz Roja Logroño - inclusion classroom for at-risk children", "2024-2025"]
+  - ["Cruz Roja Logroño - ERIE psychosocial intervention team", "February 2025"]
+  - ["Aspace Logroño - accompaniment of people with disabilities", "2018-2020"]
+
+# --------------------------------------------------------------------------
+# Facts the drafter must NEVER assert unless added above:
+forbidden_inferences:
+  - "Any master's overall GPA (it is TBD)."
+  - "Any publication, preprint or conference talk (none listed)."
+  - "Enrolment in a doctoral programme (NOT currently enrolled - this disqualifies
+     some grants, e.g. FPU; the drafter must not imply enrolment)."
+  - "Any relationship with a researcher not listed in network.yaml."
+  - "Fluency in languages beyond Spanish (native) and English (advanced)."
