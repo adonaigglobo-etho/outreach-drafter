@@ -1,0 +1,74 @@
+name: Auto-merge routine PRs
+
+# The Opportunity Scout routine pushes a claude/* branch each run. This workflow
+# triggers on that push, opens a PR into main, and merges it — but ONLY if the
+# branch changed only data files (context/, output/, sources.yaml). If it also
+# touched code/config (scout.py, config.yaml, SKILL.md, network.yaml, .github/),
+# it opens the PR and stops WITHOUT merging, so you can review. That "review
+# needed" outcome is a SUCCESS, not a failure.
+
+on:
+  push:
+    branches:
+      - 'claude/**'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  open-and-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check changed files vs main (data-only?)
+        id: guard
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const base = 'main';
+            const head = context.ref.replace('refs/heads/', '');
+            const cmp = await github.rest.repos.compareCommitsWithBasehead({
+              owner: context.repo.owner, repo: context.repo.repo,
+              basehead: `${base}...${head}`,
+            });
+            const files = (cmp.data.files || []).map(f => f.filename);
+            const allowed = /^(context\/|output\/|sources\.yaml$)/;
+            const bad = files.filter(n => !allowed.test(n));
+            core.setOutput('head', head);
+            core.setOutput('nfiles', String(files.length));
+            core.setOutput('safe', (files.length > 0 && bad.length === 0) ? 'true' : 'false');
+            if (bad.length) core.notice('Review needed (code/config changed): ' + bad.join(', '));
+
+      - name: Open PR if none exists (never fails the job)
+        if: steps.guard.outputs.nfiles != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          HEAD="${{ steps.guard.outputs.head }}"
+          if gh pr view "$HEAD" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            echo "PR already exists for $HEAD."
+          else
+            gh pr create --repo "${{ github.repository }}" \
+              --base main --head "$HEAD" \
+              --title "Scout run: $HEAD" \
+              --body "Automated Opportunity Scout run. Auto-merges if data-only." \
+            || echo "PR creation skipped (likely already exists)."
+          fi
+
+      - name: Merge if data-only
+        if: steps.guard.outputs.safe == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr merge "${{ steps.guard.outputs.head }}" \
+            --squash --delete-branch \
+            --repo "${{ github.repository }}" \
+          || echo "Merge skipped."
+
+      - name: Summary
+        run: |
+          if [ "${{ steps.guard.outputs.safe }}" = "true" ]; then
+            echo "Data-only run: PR opened and merged."
+          else
+            echo "Review needed: PR opened for manual review (code/config changed). This is expected, not an error."
+          fi
