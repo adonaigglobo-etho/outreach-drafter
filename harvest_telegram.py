@@ -29,6 +29,12 @@ QUEUE = CTX / "approved_queue.json"
 INDEX = CTX / "last_digest_index.json"
 OFFSET = CTX / "tg_offset.json"
 
+# The scout (a SEPARATE repo) publishes the numbered digest index. If we don't
+# have a fresh local copy, fetch it from the scout repo's raw GitHub URL.
+SCOUT_INDEX_URL = os.environ.get(
+    "SCOUT_INDEX_URL",
+    "https://raw.githubusercontent.com/adonaigglobo-etho/opportunity-scout/main/context/last_digest_index.json")
+
 APPROVE = {"yes", "si", "sí", "ok", "okay", "vale", "draft", "go", "approve", "y"}
 REJECT = {"no", "skip", "nope", "n"}
 
@@ -101,7 +107,15 @@ def harvest():
 
     index = load_json(INDEX, {})          # {"1": {...candidate...}, "2": {...}}
     if not index:
-        print("No digest index found - nothing to match replies against.")
+        # fall back to the scout repo's published index
+        try:
+            index = _get_json(SCOUT_INDEX_URL)
+            print(f"Fetched digest index from scout repo ({len(index)} items).")
+            save_json(INDEX, index)  # cache locally
+        except Exception as e:
+            print(f"Could not fetch scout index: {e}", file=sys.stderr)
+    if not index:
+        print("No digest index found (local or remote) - nothing to match against.")
         return 0
 
     off = load_json(OFFSET, {}).get("offset", 0)
