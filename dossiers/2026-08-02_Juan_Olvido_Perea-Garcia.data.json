@@ -1,0 +1,44 @@
+{
+  "item": {
+    "id": "person::https://openalex.org/A5129301060",
+    "kind": "person",
+    "title": "Juan Olvido Perea-Garcia",
+    "source": "OpenAlex-ES",
+    "url": "https://openalex.org/A5129301060",
+    "orcid": "",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "Universidad de Las Palmas de Gran Canaria",
+    "raw_affiliation": "Department of Modern Philology, University of Las Palmas de Gran Canaria (ULPGC), Las Palmas, Spain; University Institute for Health and Biomedical Research (IUIBS), University of Las Palmas de Gran Canaria (ULPGC), Las Palmas, Spain",
+    "pi_last_author": "Juan Olvido Perea-Garcia",
+    "matched_topics": [
+      "animal cognition"
+    ],
+    "match_methods": [
+      "topic-ES:Human-Animal Interaction Studies"
+    ],
+    "example_work": "Designing research interfaces for non-human minds: a biocentric design approach for animal cognition research",
+    "tags": [
+      "animal cognition"
+    ],
+    "overlap": 1,
+    "discovery": "topic-ES",
+    "tier": "national",
+    "why_it_fits": "[topic-ES] Spain-based; overlaps 1 of your topics (animal cognition); e.g. \"Designing research interfaces for non-human minds: a biocentric design approach for animal cognition research\"",
+    "warm_tie": null,
+    "approved_at": "2026-08-02"
+  },
+  "research": {
+    "signature": null,
+    "recent": [],
+    "funders": [],
+    "n_works": null,
+    "note": "signature fetch failed; recent fetch failed; No funding data recorded in OpenAlex (does not mean unfunded)."
+  },
+  "brief_flags": {
+    "language": "Spanish",
+    "warm_tie": null
+  },
+  "safe": "Juan_Olvido_Perea-Garcia",
+  "date": "2026-08-02"
+}
