@@ -55,6 +55,10 @@ def _oa_get(url):
     with urllib.request.urlopen(req, timeout=25) as r:
         return json.loads(r.read().decode("utf-8","replace"))
 
+import re as _re
+def _clean_title(t):
+    return _re.sub(r"<[^>]+>", "", t or "")
+
 def research_person(item):
     """Pull a small research brief from OpenAlex: signature paper, recent work, funders."""
     aid = (item.get("url") or "").rsplit("/",1)[-1]
@@ -64,29 +68,29 @@ def research_person(item):
         return out
     base = "https://api.openalex.org/works?filter=author.id:%s" % aid
     try:
-        top = _oa_get(base + "&sort=cited_by_count:desc&per-page=1&select=title,publication_year,cited_by_count,grants,primary_location")
+        top = _oa_get(base + "&sort=cited_by_count:desc&per-page=1&select=title,publication_year,cited_by_count,funders,primary_location")
         r = top.get("results", [])
         if r:
             w = r[0]
-            out["signature"] = {"title": w.get("title",""), "year": w.get("publication_year"),
+            out["signature"] = {"title": _clean_title(w.get("title","")), "year": w.get("publication_year"),
                                 "cited": w.get("cited_by_count")}
     except Exception as e:
         out["note"] += "signature fetch failed; "
     try:
-        rec = _oa_get(base + "&sort=publication_date:desc&per-page=4&select=title,publication_year,grants")
+        rec = _oa_get(base + "&sort=publication_date:desc&per-page=4&select=title,publication_year,funders")
         funders = {}
         for w in rec.get("results", []):
-            out["recent"].append({"title": w.get("title",""), "year": w.get("publication_year")})
-            for g in (w.get("grants") or []):
-                fn = g.get("funder_display_name") or g.get("funder")
+            out["recent"].append({"title": _clean_title(w.get("title","")), "year": w.get("publication_year")})
+            for g in (w.get("funders") or []):
+                fn = g.get("display_name")
                 if fn: funders[fn] = funders.get(fn, 0) + 1
-        # also scan top-cited work's grants
+        # also scan top-cited work's funders
         if out.get("signature"):
             try:
-                topg = _oa_get(base + "&sort=cited_by_count:desc&per-page=5&select=grants")
+                topg = _oa_get(base + "&sort=cited_by_count:desc&per-page=5&select=funders")
                 for w in topg.get("results", []):
-                    for g in (w.get("grants") or []):
-                        fn = g.get("funder_display_name") or g.get("funder")
+                    for g in (w.get("funders") or []):
+                        fn = g.get("display_name")
                         if fn: funders[fn] = funders.get(fn, 0) + 1
             except Exception:
                 pass
