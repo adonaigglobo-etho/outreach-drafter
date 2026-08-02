@@ -32,7 +32,7 @@ jobs:
               basehead: `${base}...${head}`,
             });
             const files = (cmp.data.files || []).map(f => f.filename);
-            const allowed = /^(context\/|output\/|sources\.yaml$)/;
+            const allowed = /^(context\/|output\/|dossiers\/|drafts\/|sources\.yaml$)/;
             const bad = files.filter(n => !allowed.test(n));
             core.setOutput('head', head);
             core.setOutput('nfiles', String(files.length));
