@@ -20,21 +20,29 @@ facts. You stage drafts. **You never send anything.**
 3. **`harvest_telegram.py`** reads those replies and appends the approved candidates to
    `context/approved_queue.json`. It runs on its OWN frequent schedule (daily), because
    Telegram's `getUpdates` only retains messages ~24h.
-4. **`draft.py`** builds a grounded DRAFT BRIEF per approved item into `drafts/`.
-5. **You** write the actual text from each brief, save it beside the brief, and create a
-   **Gmail draft**.
+4. **`draft.py`** builds a grounded DRAFT BRIEF per approved item (now including an
+   OpenAlex research section: signature paper, recent work, funders) plus a
+   `dossiers/<date>_<safe>.data.json`.
+5. **You** write the email from each brief into `dossiers/<date>_<safe>.email.md`
+   (first line `Subject: ...`, then the body), then run **`build_dossier.py`** to render
+   a one-page **PDF dossier** per item into `dossiers/`.
 
 ## Steps for a run
-1. `python harvest_telegram.py`   (capture any new greenlights)
-2. `python draft.py`              (build briefs for anything newly approved)
-3. For each `*_BRIEF.md` in `drafts/`, write the actual email/application text:
-   - Follow **`voice.md`** exactly - the arc, register, and anti-patterns.
-   - Use ONLY facts listed in the brief (from `about_me.yaml`).
+1. `pip install pyyaml fpdf2`
+2. `python harvest_telegram.py`   (capture any new greenlights)
+3. `python draft.py`              (builds briefs + research + dossier data)
+4. For each `*_BRIEF.md` in `drafts/`, write the email into
+   `dossiers/<date>_<safe>.email.md` (first line `Subject: ...`, then the body):
+   - Follow **`voice.md`** exactly - arc, register, anti-patterns.
+   - Use ONLY facts in the brief (from `about_me.yaml`); the Research section is
+     verified OpenAlex data and may be cited as-is.
    - Anything else -> `[BLANK: what Adonai must fill]`. Never guess.
-   - Write to `drafts/<date>_<name>_DRAFT.md`.
-4. Create each as a **Gmail draft** (the connector exposes drafting only - no send).
-5. Commit and push `context/` and `drafts/`.
-6. Telegram Adonai a one-line summary: how many drafts are waiting.
+5. `python build_dossier.py`      (renders one PDF per item into `dossiers/`)
+6. Commit and push `context/` and `dossiers/`.
+7. Telegram Adonai a one-line summary: how many PDF dossiers are waiting in `dossiers/`.
+
+**PDF-only. No Gmail, no sending.** The email lives inside the PDF; Adonai reviews the
+dossier (email + research + flags) in the `dossiers/` folder and sends himself.
 
 ## Hard rules
 - **Never send an email or submit an application.** Drafts only, always.

@@ -46,6 +46,57 @@ def load_json(p, default):
         except Exception: return default
     return default
 
+def _oa_get(url):
+    import urllib.request
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "opportunity-scout-dossier/1.0 (mailto:%s)" %
+        (os.environ.get("OPENALEX_MAILTO","opportunity-scout@example.com")),
+        "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=25) as r:
+        return json.loads(r.read().decode("utf-8","replace"))
+
+def research_person(item):
+    """Pull a small research brief from OpenAlex: signature paper, recent work, funders."""
+    aid = (item.get("url") or "").rsplit("/",1)[-1]
+    out = {"signature": None, "recent": [], "funders": [], "n_works": None, "note": ""}
+    if not aid.startswith("A"):
+        out["note"] = "No OpenAlex author id; research skipped."
+        return out
+    base = "https://api.openalex.org/works?filter=author.id:%s" % aid
+    try:
+        top = _oa_get(base + "&sort=cited_by_count:desc&per-page=1&select=title,publication_year,cited_by_count,grants,primary_location")
+        r = top.get("results", [])
+        if r:
+            w = r[0]
+            out["signature"] = {"title": w.get("title",""), "year": w.get("publication_year"),
+                                "cited": w.get("cited_by_count")}
+    except Exception as e:
+        out["note"] += "signature fetch failed; "
+    try:
+        rec = _oa_get(base + "&sort=publication_date:desc&per-page=4&select=title,publication_year,grants")
+        funders = {}
+        for w in rec.get("results", []):
+            out["recent"].append({"title": w.get("title",""), "year": w.get("publication_year")})
+            for g in (w.get("grants") or []):
+                fn = g.get("funder_display_name") or g.get("funder")
+                if fn: funders[fn] = funders.get(fn, 0) + 1
+        # also scan top-cited work's grants
+        if out.get("signature"):
+            try:
+                topg = _oa_get(base + "&sort=cited_by_count:desc&per-page=5&select=grants")
+                for w in topg.get("results", []):
+                    for g in (w.get("grants") or []):
+                        fn = g.get("funder_display_name") or g.get("funder")
+                        if fn: funders[fn] = funders.get(fn, 0) + 1
+            except Exception:
+                pass
+        out["funders"] = sorted(funders, key=funders.get, reverse=True)[:5]
+    except Exception as e:
+        out["note"] += "recent fetch failed; "
+    if not out["funders"]:
+        out["note"] += "No funding data recorded in OpenAlex (does not mean unfunded)."
+    return out
+
 def pick_language(item):
     """Match the recipient: Spanish for Spain-based, English otherwise."""
     blob = " ".join([str(item.get("institution", "")),
@@ -169,22 +220,46 @@ def main():
         print("Nothing pending in approved_queue.json.")
         return
 
+    DOSSIERS = ROOT / "dossiers"; DOSSIERS.mkdir(exist_ok=True)
     written = []
     for item in pending:
         brief = build_brief(item, about, network)
+        research = research_person(item) if item.get("kind") == "person" else {
+            "note": "Grant item — research is the call page summary; see eligibility notes.",
+            "signature": None, "recent": [], "funders": []}
         safe = "".join(ch if ch.isalnum() or ch in "-_" else "_"
                        for ch in (item.get("title") or "item"))[:60]
-        f = DRAFTS / f"{dt.date.today().isoformat()}_{safe}_BRIEF.md"
-        f.write_text(brief, encoding="utf-8")
-        written.append(str(f))
+        stamp = dt.date.today().isoformat()
+        # append the research to the brief so the writer sees it
+        rb = ["", "## Research (from OpenAlex — verified data, cite as-is)"]
+        if research.get("signature"):
+            sg = research["signature"]
+            rb.append(f"- Signature paper: \"{sg['title']}\" ({sg.get('year')}), {sg.get('cited')} citations")
+        if research.get("recent"):
+            rb.append("- Recent work: " + "; ".join(
+                f"\"{r['title']}\" ({r.get('year')})" for r in research["recent"][:3]))
+        if research.get("funders"):
+            rb.append("- Funding (from paper acknowledgements): " + ", ".join(research["funders"]))
+        if research.get("note"):
+            rb.append(f"- Note: {research['note']}")
+        (DRAFTS / f"{stamp}_{safe}_BRIEF.md").write_text(brief + "\n".join(rb), encoding="utf-8")
+        # dossier data the PDF builder will merge with the written email
+        dossier = {"item": item, "research": research, "brief_flags": {
+                       "language": pick_language(item),
+                       "warm_tie": find_warm_tie(item, network)},
+                   "safe": safe, "date": stamp}
+        (DOSSIERS / f"{stamp}_{safe}.data.json").write_text(
+            json.dumps(dossier, indent=2, ensure_ascii=False), encoding="utf-8")
+        written.append(safe)
         done.add(item.get("id"))
 
     (CTX / "drafted.json").write_text(json.dumps(sorted(done), indent=2), encoding="utf-8")
-    print(f"Wrote {len(written)} draft brief(s):")
+    print(f"Prepared {len(written)} item(s) with research:")
     for w in written:
         print("  -", w)
-    print("\nNow write the actual emails from these briefs, save to drafts/, "
-          "and create Gmail drafts. NEVER send.")
+    print("\nNext: write each email from its BRIEF into dossiers/<date>_<safe>.email.md "
+          "(first line 'Subject: ...', then the body). Then run build_dossier.py to render "
+          "the PDF dossiers. NEVER send; PDF-only.")
 
 if __name__ == "__main__":
     main()

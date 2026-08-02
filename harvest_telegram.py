@@ -29,11 +29,50 @@ QUEUE = CTX / "approved_queue.json"
 INDEX = CTX / "last_digest_index.json"
 OFFSET = CTX / "tg_offset.json"
 
-# The scout (a SEPARATE repo) publishes the numbered digest index. If we don't
-# have a fresh local copy, fetch it from the scout repo's raw GitHub URL.
-SCOUT_INDEX_URL = os.environ.get(
-    "SCOUT_INDEX_URL",
-    "https://raw.githubusercontent.com/adonaigglobo-etho/opportunity-scout/main/context/last_digest_index.json")
+# The scout (a SEPARATE repo) publishes candidate data. We try several artifacts
+# in order, because context/last_digest_index.json doesn't always reach main
+# (a run whose branch touched code isn't auto-merged). output/latest_candidates.json
+# is committed reliably and carries full records, so it's the preferred source.
+SCOUT_REPO = os.environ.get("SCOUT_REPO", "adonaigglobo-etho/opportunity-scout")
+SCOUT_BRANCH = os.environ.get("SCOUT_BRANCH", "main")
+# Files to try, in order (candidates list preferred - full records).
+SCOUT_PATHS = ["output/latest_candidates.json", "context/last_digest_index.json"]
+
+def _gh_get_json(path):
+    """Fetch a file from the (possibly PRIVATE) scout repo via the GitHub API,
+    authenticated with GH_TOKEN. Returns parsed JSON or raises."""
+    import base64, urllib.request
+    token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    url = (f"https://api.github.com/repos/{SCOUT_REPO}/contents/"
+           f"{urllib.parse.quote(path)}?ref={SCOUT_BRANCH}")
+    headers = {"Accept": "application/vnd.github+json",
+               "User-Agent": "opportunity-scout-harvester"}
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=25) as r:
+        meta = json.loads(r.read().decode("utf-8", "replace"))
+    content = base64.b64decode(meta.get("content", "")).decode("utf-8", "replace")
+    return json.loads(content)
+
+def _fetch_remote_index():
+    """Try each scout artifact via the authenticated API; normalize to {num: record}."""
+    for path in SCOUT_PATHS:
+        try:
+            data = _gh_get_json(path)
+        except Exception as e:
+            print(f"  [scout fetch] {path}: {e}", file=sys.stderr)
+            continue
+        if isinstance(data, dict) and data:
+            return {str(k): v for k, v in data.items()}
+        if isinstance(data, list) and data:
+            return {str(i): rec for i, rec in enumerate(data, 1)}
+    return {}
+
+import unicodedata
+def _deaccent(x):
+    return "".join(c for c in unicodedata.normalize("NFD", (x or "").lower())
+                   if unicodedata.category(c) != "Mn")
 
 APPROVE = {"yes", "si", "sí", "ok", "okay", "vale", "draft", "go", "approve", "y"}
 REJECT = {"no", "skip", "nope", "n"}
@@ -107,13 +146,11 @@ def harvest():
 
     index = load_json(INDEX, {})          # {"1": {...candidate...}, "2": {...}}
     if not index:
-        # fall back to the scout repo's published index
-        try:
-            index = _get_json(SCOUT_INDEX_URL)
-            print(f"Fetched digest index from scout repo ({len(index)} items).")
+        # fall back to the scout repo's published artifacts (candidates preferred)
+        index = _fetch_remote_index()
+        if index:
+            print(f"Fetched candidate index from scout repo ({len(index)} items).")
             save_json(INDEX, index)  # cache locally
-        except Exception as e:
-            print(f"Could not fetch scout index: {e}", file=sys.stderr)
     if not index:
         print("No digest index found (local or remote) - nothing to match against.")
         return 0
@@ -164,9 +201,9 @@ def harvest():
     # against each candidate's title. This is the unambiguous path and is checked
     # against the SAME item the number labelled.
     for tok in approved_names:
-        tl = tok.lower()
+        tl = _deaccent(tok)
         for num, rec in index.items():
-            if tl in (rec.get("title", "").lower()):
+            if tl in _deaccent(rec.get("title", "")):
                 approved_nums.add(int(num))
 
     added, missing = 0, []
