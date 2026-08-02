@@ -1,1 +1,445 @@
-{} 
+{
+  "1": {
+    "id": "source::AGAUR Joan Oró FI — Catalan predoctoral grant",
+    "kind": "grant",
+    "title": "AGAUR Joan Oró FI — Catalan predoctoral grant",
+    "source": "AGAUR Joan Oró FI — Catalan predoctoral grant",
+    "url": "https://agaur.gencat.cat/es/beques-i-ajuts/Research-grants/ajuts-predoctorals/index.html",
+    "deadline": null,
+    "eligibility_notes": "THE Catalan predoc grant (formerly FI, now 'Joan Oró FI'). 3-year contract, requires enrolment in a Catalan doctoral programme. Direct regional fit if you do your PhD at UAB/UB/UPF/CREAF etc. Official trámit: tramits.gencat.cat (search 'Joan Oró FI').",
+    "why_it_fits": "",
+    "tags": [
+      "grant",
+      "predoc",
+      "spain"
+    ],
+    "warm_tie": null,
+    "reachable": true,
+    "cadence": "Annual — 2026 call closed ~30 Jan; expect next call ~Jan 2027",
+    "tier": "regional",
+    "_page_excerpt": "<!DOCTYPE html>\n<html xml:lang=\"es-ES\" lang=\"es-ES\">\n\t\t<head>\n\t\t\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<meta name=\"WT.z_idioma\" content='es' />\n\n<!---->\n<title>Ayudas predoctorales. Agencia de Gestión de Ayudas Universitarias y de Investigación</title>\n<link rel='alternate' hreflang='ca' href='https://agaur.gencat.cat/ca/beques-i-ajuts/Research-grants/ajuts-predoctorals/index.html' /><link rel='alternate' hreflang='es' href='https://agaur.gencat.cat/es/beques-i-ajuts/Research-grants/ajuts-predoctorals/index.html' /><link rel='alternate' hreflang='en' href='https://agaur.gencat.cat/en/beques-i-ajuts/Research-grants/ajuts-predoctorals/index.html' /><link rel='alternate' hreflang='x-default' href='https://agaur.gencat.cat/' /><!--AGÈNCIA DE GESTIÓ D’AJUTS UNIVERSITARIS I DE RECERCA-->\n\n<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/web/resources/fwkResponsives/common/img/favicon.ico\" />\n\n\n<link href=\"/web/resources/fwkResponsives/common/css/bootstrap.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsives/common/css/styles.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsives/common/css/leaflet.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsives/common/css/master.responsive.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<!--[if IE 9]>\n\t<link href=\"/web/resources/fwkResponsives/common/css/master.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n\t<link href=\"/web/resources/fwkResponsives/common/css/style_IE9.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<![endif]-->\n<script src=\"/web/resources/fwkResponsives/common/js/jquery.min.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/jquery-ui.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/master.min.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/entorn_config.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/generic_responsive.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/master.responsive.js\" type=\"text/javascript\"></script>\n<!--[if lt IE 9]>\n\t<link href=\"/web/resources/fwkResponsives/common/css/style_IE8.css\" rel=\"stylesheet\" type=\"text/css\"/>\n\t<script type=\"text/javascript\" src=\"/web/resources/fwkResponsives/common/js/respond.min.js\"></script>\n\t<script type=\"text/javascript\" src=\"/web/resources/fwkResponsives/common/js/modernizr.js\"></script>\n<![endif]-->\n\n<link href=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/css/fpca_peu_xarxesSocials.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_article/css/fpca_article.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_peu/css/fpca_peu.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_capcalera/css/capcalera.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/common/css/simplebar.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_subcapcalera/css/fpca_subcapcalera.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<script src=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/js/fpca_peu_xarxesSocials.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsive/fpca_article/js/fpca_article.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsive/fpca_peu/js/fpca_peu.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsive/fpca_capcalera/js/fpca_capcalera.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsive/common/js/simplebar.min.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsive/common/js/autoComplete.min.js\" type=\"text/javascript\"></script>\n<script src=\"/web/res"
+  },
+  "2": {
+    "id": "person::https://openalex.org/A5038612405",
+    "kind": "person",
+    "title": "Marco Baroni",
+    "source": "OpenAlex",
+    "url": "https://openalex.org/A5038612405",
+    "orcid": "https://orcid.org/0000-0001-5066-3580",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "Institució Catalana de Recerca i Estudis Avançats",
+    "raw_affiliation": "Catalan Institution for Research and Advanced Studies (ICREA), Barcelona, Spain; Department of Translation and Language Sciences, Universitat Pompeu Fabra, Barcelona, Spain",
+    "pi_last_author": "Marco Baroni",
+    "matched_topics": [
+      "behavioural flexibility"
+    ],
+    "match_methods": [
+      "fallback"
+    ],
+    "example_work": "Human-like systematic generalization through a meta-learning neural network",
+    "tags": [
+      "behavioural flexibility"
+    ],
+    "overlap": 1,
+    "discovery": "fallback",
+    "tier": "regional",
+    "why_it_fits": "[fallback] overlaps 1 of your topics (behavioural flexibility); e.g. \"Human-like systematic generalization through a meta-learning neural network\"",
+    "warm_tie": null
+  },
+  "3": {
+    "id": "source::Generalitat de Catalunya — FI predoctoral (AGAUR)",
+    "kind": "grant",
+    "title": "Generalitat de Catalunya — FI predoctoral (AGAUR)",
+    "source": "Generalitat de Catalunya — FI predoctoral (AGAUR)",
+    "url": "https://agaur.gencat.cat/en/beques-i-ajuts/",
+    "deadline": null,
+    "eligibility_notes": "Regional predoc (relevant if targeting Catalan institutions, e.g. CREAF/CSIC Barcelona — see Daniel Sol in network.yaml).",
+    "why_it_fits": "",
+    "tags": [
+      "grant",
+      "predoc",
+      "spain"
+    ],
+    "warm_tie": null,
+    "reachable": true,
+    "cadence": "Annual",
+    "tier": "regional",
+    "_page_excerpt": "<!DOCTYPE html>\n<html xml:lang=\"en-GB\" lang=\"en-GB\">\n\t\t<head>\n\t\t\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<meta name=\"WT.z_idioma\" content='en' />\n\n<!---->\n<title>scholarships and grants. Agency for Management of University and Research Grants</title>\n<link rel='alternate' hreflang='ca' href='https://agaur.gencat.cat/ca/beques-i-ajuts/index.html' /><link rel='alternate' hreflang='es' href='https://agaur.gencat.cat/es/beques-i-ajuts/index.html' /><link rel='alternate' hreflang='en' href='https://agaur.gencat.cat/en/beques-i-ajuts/index.html' /><link rel='alternate' hreflang='x-default' href='https://agaur.gencat.cat/' /><!--AGÈNCIA DE GESTIÓ D’AJUTS UNIVERSITARIS I DE RECERCA-->\n\n<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/web/resources/fwkResponsives/common/img/favicon.ico\" />\n\n\n<link href=\"/web/resources/fwkResponsives/common/css/bootstrap.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsives/common/css/styles.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsives/common/css/leaflet.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsives/common/css/master.responsive.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<!--[if IE 9]>\n\t<link href=\"/web/resources/fwkResponsives/common/css/master.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n\t<link href=\"/web/resources/fwkResponsives/common/css/style_IE9.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<![endif]-->\n<script src=\"/web/resources/fwkResponsives/common/js/jquery.min.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/jquery-ui.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/master.min.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/entorn_config.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/generic_responsive.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/master.responsive.js\" type=\"text/javascript\"></script>\n<!--[if lt IE 9]>\n\t<link href=\"/web/resources/fwkResponsives/common/css/style_IE8.css\" rel=\"stylesheet\" type=\"text/css\"/>\n\t<script type=\"text/javascript\" src=\"/web/resources/fwkResponsives/common/js/respond.min.js\"></script>\n\t<script type=\"text/javascript\" src=\"/web/resources/fwkResponsives/common/js/modernizr.js\"></script>\n<![endif]-->\n\n<link href=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/css/fpca_peu_xarxesSocials.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_distribuidora_nova/css/fpca_distribuidora_nova.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_diapositives/css/fpca_diapositives.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_llista_enllacIcones/css/fpca_llista_enllacIcones.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_tramit_cercador/css/fpca_tramit_cercador.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_llista/css/fpca_llista.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_llista_fonsDestacat/css/fpca_llista_fonsDestacat.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_peu/css/fpca_peu.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_capcalera/css/capcalera.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/common/css/simplebar.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_subcapcalera/css/fpca_subcapcalera.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<script src=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/js/fpca_peu_xarxesSocials.js\" type=\"text/javascript\"></script>\n<script sr"
+  },
+  "4": {
+    "id": "person::https://openalex.org/A5029348330",
+    "kind": "person",
+    "title": "Marta Díaz Boladeras",
+    "source": "OpenAlex-ES",
+    "url": "https://openalex.org/A5029348330",
+    "orcid": "https://orcid.org/0000-0001-8215-0499",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "Cidete (Spain)",
+    "raw_affiliation": "Technical Research Centre for Dependency Care and Autonomous Living (CETpD), Rambla Exposició, 59., 08800, Vilanova i la Geltrú, Spain; Universitat Politècnica de Catalunya, BarcelonaTech (UPC), Catalonia, Spain",
+    "pi_last_author": "",
+    "matched_topics": [
+      "animal cognition"
+    ],
+    "match_methods": [
+      "topic-ES:Human-Animal Interaction Studies"
+    ],
+    "example_work": "Bond formation with pet-robots: An integrative approach",
+    "tags": [
+      "animal cognition"
+    ],
+    "overlap": 1,
+    "discovery": "topic-ES",
+    "tier": "regional",
+    "why_it_fits": "[topic-ES] Spain-based; overlaps 1 of your topics (animal cognition); e.g. \"Bond formation with pet-robots: An integrative approach\"",
+    "warm_tie": null
+  },
+  "5": {
+    "id": "source::la Caixa INPhINIT Doctoral Fellowships",
+    "kind": "grant",
+    "title": "la Caixa INPhINIT Doctoral Fellowships",
+    "source": "la Caixa INPhINIT Doctoral Fellowships",
+    "url": "https://lacaixafoundation.org/en/doctoral-inphinit-fellowships",
+    "deadline": null,
+    "eligibility_notes": "STEM/life-sciences eligible. Incoming = NOT resident in ES/PT >12mo of last 3yr; Retaining = resident in ES/PT. Host must hold Severo Ochoa / María de Maeztu accreditation for Incoming.",
+    "why_it_fits": "",
+    "tags": [
+      "grant",
+      "predoc",
+      "spain",
+      "mobility"
+    ],
+    "warm_tie": null,
+    "reachable": true,
+    "cadence": "Annual — Incoming ~28 Jan, Retaining ~18 Feb (2026 dates verified)",
+    "tier": "national",
+    "_page_excerpt": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\t\t\t<!DOCTYPE html>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<html class=\"ltr\" dir=\"ltr\" lang=\"en-US\">\n\n<head>\n\n<script>\n  /* =========================================================\n   *  PAGE_VIEW (se deja como estaba)\n   * =======================================================*/\n  window.dataLayer = window.dataLayer || [];\n  dataLayer.push({\n    'event': 'page_view',\n          'content_group': 'Research and fellowships',\n          'content_group2': 'Fellowships',\n            'content_group3': 'Doctoral INPhINIT fellowships',\n          'content_group4': 'na',\n          'content_group5': 'na',\n          'content_group6': 'na',\n    'page_path': '/en/becas-doctorado-inphinit',\n    'page_title': 'Doctoral INPhINIT fellowships'\n  });\n\n\n  (function () {\n    window._swcHelpers = window._swcHelpers || {};\n\n    function getFileInfoFromUrl(url, exts, fallbackText) {\n      var fileName = '';\n      var fileFormat = '';\n\n      try {\n        var urlObj = new URL(url, window.location.origin);\n        var path = urlObj.pathname;\n        var segments = path.split('/').filter(Boolean);\n        var candidate = segments[segments.length - 1] || '';\n        var lowerCandidate = candidate.toLowerCase();\n\n        var dot = lowerCandidate.lastIndexOf('.');\n        if (dot !== -1) {\n          fileFormat = lowerCandidate.substring(dot + 1);\n          fileName = candidate.substring(0, dot);\n        } else {\n          exts.some(function (ext) {\n            var suffix = '-' + ext;\n            if (lowerCandidate.endsWith(suffix)) {\n              fileFormat = ext;\n              fileName = candidate.substring(0, candidate.length - suffix.length);\n              return true;\n            }\n            return false;\n          });\n        }\n\n        if (!fileName) fileName = candidate || path;\n      } catch (e) {\n        fileName = url || (fallbackText || '');\n        fileFormat = '';\n      }\n\n      return {\n        file_name: fileName,\n        file_format: fileFormat\n      };\n    }\n\n    window._swcHelpers.getFileInfoFromUrl = getFileInfoFromUrl;\n\n      window._swcHelpers.normalizeForDataLayer = function (str) {\n        return (str ?? \"\")\n          .toString()\n          .normalize(\"NFD\")\n          .replace(/[\\u0300-\\u036f]/g, \"\")\n          .replace(/[ñÑ]/g, \"n\")\n          .replace(/[\\\"\\'\\u201C\\u201D\\u2018\\u2019\\u00AB\\u00BB]/g, \"\")\n          .replace(/[^a-zA-Z0-9\\s\\-_.:,]/g, \"\")\n          .trim()\n          .replace(/\\s+/g, \"-\")\n          .replace(/-+/g, \"-\")\n          .toLowerCase();\n      };\n\n      window._swcHelpers.pushDL = function (obj) {\n        var n = window._swcHelpers.normalizeForDataLayer;\n\n        var shouldNormalizeKey = function (k) {\n          return (\n            k === \"category\" ||\n            k === \"type\" ||\n            /_name$/.test(k) ||\n            /_format$/.test(k) ||\n            /_type$/.test(k)\n          );\n        };\n\n        var out = {};\n        Object.keys(obj || {}).forEach(function (k) {\n          var v = obj[k];\n          out[k] = (v == null) ? v : (shouldNormalizeKey(k) ? n(v) : v);\n        });\n\n        window.dataLayer = window.dataLayer || [];\n        window.dataLayer.push(out);\n      };\n  })();\n\n\n\n\n  (function () {\n    var FILE_EXTENSIONS = ['pdf', 'doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 'zip'];\n    var getFileInfoFromUrl = window._swcHelpers.getFileInfoFromUrl;\n\n    function isDownloadLink(link) {\n      var href = link.getAttribute('href');\n      if (!href) return false;\n\n      var info = getFileInfoFromUrl(href, FILE_EXTENSIONS, link.textContent || '');\n      return FILE_EXTENSIONS.indexOf(info.file_format) !== -1;\n    }\n\n    function onDownloadClick(event) {\n      var link = event.currentTarget;\n      var info = getFileInfoFromUrl(link.href, FILE_EXTENSIONS, link.textContent || '');\n\n      window._swcHelpers.pushDL({\n        event: 'download.event',\n        eventName: 'file_download',\n        file_name: info.file_name,\n        file_format: info.file_format"
+  },
+  "6": {
+    "id": "person::https://openalex.org/A5032193561",
+    "kind": "person",
+    "title": "Eduardo Sampaio",
+    "source": "OpenAlex",
+    "url": "https://openalex.org/A5032193561",
+    "orcid": "https://orcid.org/0000-0002-9222-2553",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "University of Lisbon",
+    "raw_affiliation": "Centre for the Advanced Study of Collective Behaviour, University of Konstanz, Konstanz, Germany. esampaio@ab.mpg.de; Department of Biology, University of Konstanz, Konstanz, Germany. esampaio@ab.mpg.de; Department of Collective Behaviour, Max Planck Institute of Animal Behavior, Konstanz, Germany. esampaio@ab.mpg.de; MARE-Marine and Environmental Sciences Centre, Laboratório Marítimo da Guia, Faculdade de Ciências, Universidade de Lisboa, Lisbon, Portugal. esampaio@ab.mpg.de",
+    "pi_last_author": "Simon Gingins",
+    "matched_topics": [
+      "collective animal behaviour"
+    ],
+    "match_methods": [
+      "fallback"
+    ],
+    "example_work": "Multidimensional social influence drives leadership and composition-dependent success in octopus–fish hunting groups",
+    "tags": [
+      "collective animal behaviour"
+    ],
+    "overlap": 1,
+    "discovery": "fallback",
+    "tier": "national",
+    "why_it_fits": "[fallback] overlaps 1 of your topics (collective animal behaviour); e.g. \"Multidimensional social influence drives leadership and composition-dependent success in octopus–fish hunting groups\"",
+    "warm_tie": null
+  },
+  "7": {
+    "id": "source::FPU — Ayudas para la Formación de Profesorado Universitario (MEFP)",
+    "kind": "grant",
+    "title": "FPU — Ayudas para la Formación de Profesorado Universitario (MEFP)",
+    "source": "FPU — Ayudas para la Formación de Profesorado Universitario (MEFP)",
+    "url": "https://www.universidades.gob.es/formacion-de-profesorado-universitario-fpu/",
+    "deadline": null,
+    "eligibility_notes": "Requires enrolment/admission in a doctoral programme. Confirm exact call URL each cycle — ministry restructures pages.",
+    "why_it_fits": "",
+    "tags": [
+      "grant",
+      "predoc",
+      "spain"
+    ],
+    "warm_tie": null,
+    "reachable": true,
+    "cadence": "Annual, ministry call (usually late autumn/winter)",
+    "tier": "national",
+    "_page_excerpt": "<!DOCTYPE html>\r\n<html xml:lang=\"es\" lang=\"es\">\r\n\r\n<head>\r\n        <!-- Google tag (gtag.js) -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-V5CJEH4Z0R\"></script>\r\n<script>\r\nfunction marketingTagAnalitica() {\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'G-V5CJEH4Z0R');\r\n}\r\n</script>\r\n        <!-- Delete cookie -->\r\n<script>\r\nfunction deleteCookie(cname) {\r\n\tif (readCookie(cname) != null) {\r\n\t\tdocument.cookie = cname + \"= ;expires=Thu, 01-Jan-70 00:00:01 GMT; Path=/;domain=ciencia.gob.es\";\r\n\t}\r\n}\r\n</script>\r\n        <!-- Set cookie -->\n<script>\nfunction setCookie(cname, cvalue, exdays) {\n\tvar d = new Date();\n\td.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));\n\tvar expires = (exdays == '') ? '' : 'expires=' + d.toUTCString() + ';';\n\tdocument.cookie = cname + \"=\" + cvalue + \";\" + expires + \";path=/\";\n}\n</script>\r\n        <!-- Set cookie -->\r\n<script>\r\nfunction setCookie(cname, cvalue, exdays) {\r\n\tvar d = new Date();\r\n\td.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));\r\n\tvar expires = (exdays == '') ? '' : 'expires=' + d.toUTCString() + ';';\r\n\tdocument.cookie = cname + \"=\" + cvalue + \";\" + expires + \";path=/\";\r\n}\r\n</script>\r\n<script type=\"text/javascript\" async src=\"https://www.google-analytics.com/analytics.js\"></script>\r\n<script>\r\nvar examinar = 'Examinar';\r\nvar opcional = 'Opcional';\r\n//var urlServletAssetDownload = '/gesdamdoc-servlet/?uuid=';\r\nvar urlServletAssetDownload = '/site-web/InfoGeneralPortal/documento/';\r\nvar site = window.location.href;\r\nif(site.indexOf('aee') !== -1){\r\n  urlServletAssetDownload = '/site-aee/InfoGeneral/documento/';\r\n}\r\n</script>\r\n<title>CIENCIA - Ministerio de Ciencia, Innovación y Universidades</title>\r\n\r\n<meta charset=\"utf-8\">\r\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n<meta name=\"author\" content=\"Ministerio de Ciencia, Innovación y Universidades\">\r\n<meta name=\"description\" content=\"Ministerio de Ciencia, Innovación y Universidades \">\r\n<meta name=\"keywords\" content=\"Ministerio de Ciencia, Innovación y Universidades\">\r\n<meta name=\"robots\" content=\"index,\r\n                             follow\"/>\r\n\r\n<link rel=\"icon\" type=\"image/vnd.microsoft.icon\" href=\"/.resources/site-web/webresources/img/favicon.ico\">\r\n<link rel=\"canonical\" href=\"https://www.ciencia.gob.es/site-web/home.html\"/>\r\n<link rel=\"alternate\" hreflang=\"ca\" href=\"https://www.ciencia.gob.es/ca/\"/>\r\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://www.ciencia.gob.es/en/\"/>\r\n<link rel=\"alternate\" hreflang=\"eu\" href=\"https://www.ciencia.gob.es/eu/\"/>\r\n<link rel=\"alternate\" hreflang=\"gl\" href=\"https://www.ciencia.gob.es/gl/\"/>\r\n<link rel=\"alternate\" hreflang=\"va\" href=\"https://www.ciencia.gob.es/va/\"/>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n  <link rel=\"stylesheet\" href=\"/.resources/site-web/webresources/css/bootstrap-icons~2026-07-15-05-40-42-351~cache.css\" media=\"all\" />\r\n  <link rel=\"stylesheet\" href=\"/.resources/site-web/webresources/css/newHeader~2026-07-15-05-40-42-524~cache.css\" media=\"all\" />\r\n  <link rel=\"stylesheet\" href=\"/.resources/site-web/webresources/css/bootstrap.min~2026-07-15-05-40-42-420~cache.css\" media=\"all\" />\r\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Poppins:100,200,400,600&display=swap\" media=\"all\" />\r\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap\" media=\"all\" />\r\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap\" media=\"all\" />\r\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap\" media=\"all\" />\r\n  <link rel=\"stylesheet\" href=\"/.resources/site-web/webresources/css/leaflet~2026-07-15-05-40-42-484~cache.css\" media=\"all\" />\r\n  <link rel=\"stylesheet\" href=\"/.resources/site-web/webresources/css/mci-organigrama~2026-07-15-05-40-42-502~cach"
+  },
+  "8": {
+    "id": "person::https://openalex.org/A5012649250",
+    "kind": "person",
+    "title": "Antonio Benítez‐Burraco",
+    "source": "OpenAlex-ES",
+    "url": "https://openalex.org/A5012649250",
+    "orcid": "https://orcid.org/0000-0003-4574-5666",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "Vrije Universiteit Brussel",
+    "raw_affiliation": "Department of Spanish, Linguistics, and Theory of Literature, University of Seville 41004 Seville, Spain; Vrije Universiteit Brussel",
+    "pi_last_author": "Antonio Benítez‐Burraco",
+    "matched_topics": [
+      "animal cognition"
+    ],
+    "match_methods": [
+      "topic-ES:Human-Animal Interaction Studies"
+    ],
+    "example_work": "Elephants as an animal model for self-domestication",
+    "tags": [
+      "animal cognition"
+    ],
+    "overlap": 1,
+    "discovery": "topic-ES",
+    "tier": "national",
+    "why_it_fits": "[topic-ES] Spain-based; overlaps 1 of your topics (animal cognition); e.g. \"Elephants as an animal model for self-domestication\"",
+    "warm_tie": null
+  },
+  "9": {
+    "id": "source::FPI — Ayudas para contratos predoctorales (AEI)",
+    "kind": "grant",
+    "title": "FPI — Ayudas para contratos predoctorales (AEI)",
+    "source": "FPI — Ayudas para contratos predoctorales (AEI)",
+    "url": "https://www.aei.gob.es/convocatorias",
+    "deadline": null,
+    "eligibility_notes": "FPI is attached to a specific funded project/PI — so a target lab in Spain with an active AEI project is the entry point. Cross-reference with lab_discovery hits.",
+    "why_it_fits": "",
+    "tags": [
+      "grant",
+      "predoc",
+      "spain"
+    ],
+    "warm_tie": null,
+    "reachable": true,
+    "cadence": "Annual, tied to funded research projects",
+    "tier": "national",
+    "_page_excerpt": "<!DOCTYPE html>\n<html  lang=\"es\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\" />\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-VW72V68TSZ\"></script>\n<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag(\"js\", new Date());gtag(\"set\", \"developer_id.dMDhkMT\", true);gtag(\"config\", \"G-VW72V68TSZ\", {\"groups\":\"default\",\"page_placeholder\":\"PLACEHOLDER_page_location\"});</script>\n<link rel=\"canonical\" href=\"http://www.aei.gob.es/convocatorias\" />\n<meta name=\"Generator\" content=\"Drupal 9 (https://www.drupal.org)\" />\n<meta name=\"MobileOptimized\" content=\"width\" />\n<meta name=\"HandheldFriendly\" content=\"true\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\" />\n<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #264c80} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}</style>\n<meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\" />\n<script src=\"https://www.google.com/recaptcha/api.js?hl=es\" async defer></script>\n<link rel=\"icon\" href=\"/themes/custom/vartheme_aei/favicon.ico\" type=\"image/vnd.microsoft.icon\" />\n<link rel=\"alternate\" hreflang=\"eu\" href=\"http://www.aei.gob.es/eu/deiak\" />\n<link rel=\"alternate\" hreflang=\"ca\" href=\"http://www.aei.gob.es/ca/convocatories\" />\n<link rel=\"alternate\" hreflang=\"gl\" href=\"http://www.aei.gob.es/gl/chamadas\" />\n<link rel=\"alternate\" hreflang=\"en\" href=\"http://www.aei.gob.es/en/announcements\" />\n<link rel=\"alternate\" hreflang=\"es\" href=\"http://www.aei.gob.es/convocatorias\" />\n<link rel=\"alternate\" hreflang=\"va\" href=\"http://www.aei.gob.es/va/convocatories\" />\n\n    <title>Convocatorias | Agencia Estatal de Investigación</title>\n    <link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/ajax-progress.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/align.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/autocomplete-loading.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/fieldgroup.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/container-inline.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/clearfix.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/details.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/hidden.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/item-list.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/js.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/nowrap.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/position-container.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/progress.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/reset-appearance.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/resize.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/sticky-header.module.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/components/system-status-counter.css?thxao6\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/core/modules/system/css/componen"
+  },
+  "10": {
+    "id": "person::https://openalex.org/A5129301060",
+    "kind": "person",
+    "title": "Juan Olvido Perea-Garcia",
+    "source": "OpenAlex-ES",
+    "url": "https://openalex.org/A5129301060",
+    "orcid": "",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "Universidad de Las Palmas de Gran Canaria",
+    "raw_affiliation": "Department of Modern Philology, University of Las Palmas de Gran Canaria (ULPGC), Las Palmas, Spain; University Institute for Health and Biomedical Research (IUIBS), University of Las Palmas de Gran Canaria (ULPGC), Las Palmas, Spain",
+    "pi_last_author": "Juan Olvido Perea-Garcia",
+    "matched_topics": [
+      "animal cognition"
+    ],
+    "match_methods": [
+      "topic-ES:Human-Animal Interaction Studies"
+    ],
+    "example_work": "Designing research interfaces for non-human minds: a biocentric design approach for animal cognition research",
+    "tags": [
+      "animal cognition"
+    ],
+    "overlap": 1,
+    "discovery": "topic-ES",
+    "tier": "national",
+    "why_it_fits": "[topic-ES] Spain-based; overlaps 1 of your topics (animal cognition); e.g. \"Designing research interfaces for non-human minds: a biocentric design approach for animal cognition research\"",
+    "warm_tie": null
+  },
+  "11": {
+    "id": "source::Marie Skłodowska-Curie Actions — Doctoral Networks & Postdoctoral Fellowships",
+    "kind": "grant",
+    "title": "Marie Skłodowska-Curie Actions — Doctoral Networks & Postdoctoral Fellowships",
+    "source": "Marie Skłodowska-Curie Actions — Doctoral Networks & Postdoctoral Fellowships",
+    "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions",
+    "deadline": null,
+    "eligibility_notes": "Doctoral Networks are applied for by consortia (you join as a recruited fellow — watch for open recruited positions). PF is postdoc-stage.",
+    "why_it_fits": "",
+    "tags": [
+      "grant",
+      "predoc",
+      "postdoc",
+      "mobility",
+      "eu"
+    ],
+    "warm_tie": null,
+    "reachable": true,
+    "cadence": "Annual per action (PF call typically opens spring, closes ~Sep)",
+    "tier": "international",
+    "_page_excerpt": "<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\" prefix=\"og: https://ogp.me/ns#\">\n  <head>\n    <meta charset=\"utf-8\" />\n<noscript><style>form.antibot > * { display: none !important; } form.antibot noscript { display: block !important; }</style>\n</noscript><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\n<meta name=\"description\" content=\"Learn which of the five types of MSCA funding supports (actions) is best for you, how to apply and how to search for a job with MSCA-funded projects.\" />\n<link rel=\"canonical\" href=\"https://marie-sklodowska-curie-actions.ec.europa.eu/actions\" />\n<meta property=\"og:site_name\" content=\"Marie Skłodowska-Curie Actions\" />\n<meta property=\"og:type\" content=\"Content page\" />\n<meta property=\"og:url\" content=\"https://marie-sklodowska-curie-actions.ec.europa.eu/actions\" />\n<meta property=\"og:title\" content=\"About Marie Skłodowska-Curie Actions\" />\n<meta property=\"og:description\" content=\"Use this guide to learn about the different types of Marie Skłodowska-Curie Actions (MSCA) funding supports and to learn which one is most suitable for you. You can learn about how to apply and individuals can learn how to search for a job advertised by an MSCA funded project.\" />\n<meta name=\"Generator\" content=\"Drupal 11 (https://www.drupal.org)\" />\n<meta name=\"MobileOptimized\" content=\"width\" />\n<meta name=\"HandheldFriendly\" content=\"true\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<meta name=\"theme-color\" content=\"#0E3051\" />\n<link rel=\"icon\" href=\"/profiles/custom/eac_profile/themes/eac_theme/images/eche/ec_flag.svg\" type=\"image/svg+xml\" />\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://marie-sklodowska-curie-actions.ec.europa.eu/actions\" />\n\n    <title>About Marie Skłodowska-Curie Actions - Marie Skłodowska-Curie Actions</title>\n    <link rel=\"stylesheet\" media=\"all\" href=\"/sites/default/files/css/css_DMmWldzIPiRQW0nT3BwZJYU_TEj1VZGSqqNxct7Lb1M.css?delta=0&amp;language=en&amp;theme=eac_theme&amp;include=eJyVkmFuwyAMhS_EkiNFDrgEyWBkG23d6UeidO3UVsn-gP3eF8cYPAuOQVoFGkIC4uj8g2T4ZSAIH4KavtEh-AlCTmU0ZppBNiUSz0DjGnqmlotusi2YcVU9PeQXLjZxxTIp_AHVroTTmmeQhL71xa00fKLy_uUeD584r6kOs0AJesyFxsblREFKcbFjTDA26uc_BHUBqSeLbuz_KitTCifYc5gtqXSKrbChjr-RY9xvyXOufY79Din12ct1Qn93q6RiroJAFKiL3t7RXRlaqW2mpAsGpwjilwlqmqAZr7UJrT-F17rTqxrmcQZFt_Usedz3YWtMk71yyiVJBktcnkyk3nexDrViKG_9gAaJ-oQ4Rnr-xw3LqArx0B9SufBbiOvaqj756_IDUQd1BQ\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/sites/default/files/css/css_V2ZSlOZZBjGuO7tQ9Z9p5G_RfnWratOIcKtoW-tXQI4.css?delta=1&amp;language=en&amp;theme=eac_theme&amp;include=eJyVkmFuwyAMhS_EkiNFDrgEyWBkG23d6UeidO3UVsn-gP3eF8cYPAuOQVoFGkIC4uj8g2T4ZSAIH4KavtEh-AlCTmU0ZppBNiUSz0DjGnqmlotusi2YcVU9PeQXLjZxxTIp_AHVroTTmmeQhL71xa00fKLy_uUeD584r6kOs0AJesyFxsblREFKcbFjTDA26uc_BHUBqSeLbuz_KitTCifYc5gtqXSKrbChjr-RY9xvyXOufY79Din12ct1Qn93q6RiroJAFKiL3t7RXRlaqW2mpAsGpwjilwlqmqAZr7UJrT-F17rTqxrmcQZFt_Usedz3YWtMk71yyiVJBktcnkyk3nexDrViKG_9gAaJ-oQ4Rnr-xw3LqArx0B9SufBbiOvaqj756_IDUQd1BQ\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/profiles/custom/eac_profile/themes/eac_theme/node_modules/%40eac/eac-cl/dist/app.css?tj1c5b\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/sites/default/files/css/css_U4J7lMKCH6RyRNBoqIJBLAW6572ODUnS8JLxYYFdLls.css?delta=3&amp;language=en&amp;theme=eac_theme&amp;include=eJyVkmFuwyAMhS_EkiNFDrgEyWBkG23d6UeidO3UVsn-gP3eF8cYPAuOQVoFGkIC4uj8g2T4ZSAIH4KavtEh-AlCTmU0ZppBNiUSz0DjGnqmlotusi2YcVU9PeQXLjZxxTIp_AHVroTTmmeQhL71xa00fKLy_uUeD584r6kOs0AJesyFxsblREFKcbFjTDA26uc_BHUBqSeLbuz_KitTCifYc5gtqXSKrbChjr-RY9xvyXOufY79Din12ct1Qn93q6RiroJAFKiL3t7RXRlaqW2mpAsGpwjilwlqmqAZr7UJrT-F17rTqxrmcQZFt_Usedz3YWtMk71yyiVJBktcnkyk3nexDrViKG_9gAaJ-oQ4Rnr-xw3LqArx0B9SufBbiOvaqj756_IDUQd1BQ\" />\n<link rel=\"stylesheet\" media=\"print\" href=\"/sites/default/files/css/css_EJtohNyiSEpXqI6Yq4ofCk1tWlWG3nUrviKKo8HPfs0.css?delta=4&amp;language=en&amp;theme=eac_theme&amp;include=eJyVkmFuwyAMhS_EkiNFDrgEyWBkG23d6UeidO3UVsn-gP3eF8cYPAuOQVoFGkIC4uj8g2T4ZSAIH4KavtEh-AlCTmU0ZppBNiUSz0DjGnqmlotusi2YcVU9PeQX"
+  },
+  "12": {
+    "id": "person::https://openalex.org/A5018597400",
+    "kind": "person",
+    "title": "Yaning Han",
+    "source": "OpenAlex",
+    "url": "https://openalex.org/A5018597400",
+    "orcid": "https://orcid.org/0000-0002-1650-2262",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "Chinese Academy of Sciences",
+    "raw_affiliation": "CAS Key Laboratory of Brain Connectome and Manipulation, the Brain Cognition and Brain Disease Institute, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; Guangdong Provincial Key Laboratory of Brain Connectome and Behavior, the Brain Cognition and Brain Disease Institute, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; Shenzhen Key Laboratory of Neuropsychiatric Modulation and Collaborative Innovation Center for Brain Science, Shenzhen-Hong Kong Institute of Brain Science, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; University of Chinese Academy of Sciences, Beijing, China",
+    "pi_last_author": "Pengfei Wei",
+    "matched_topics": [
+      "animal social learning",
+      "behavioural ecology"
+    ],
+    "match_methods": [
+      "fallback",
+      "fallback"
+    ],
+    "example_work": "Multi-animal 3D social pose estimation, identification and behaviour embedding with a few-shot learning framework",
+    "tags": [
+      "animal social learning",
+      "behavioural ecology"
+    ],
+    "overlap": 2,
+    "discovery": "fallback",
+    "tier": "international",
+    "why_it_fits": "[fallback] overlaps 2 of your topics (animal social learning, behavioural ecology); e.g. \"Multi-animal 3D social pose estimation, identification and behaviour embedding with a few-shot learning framework\"",
+    "warm_tie": null
+  },
+  "13": {
+    "id": "source::EMBO Postdoctoral Fellowships",
+    "kind": "grant",
+    "title": "EMBO Postdoctoral Fellowships",
+    "source": "EMBO Postdoctoral Fellowships",
+    "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/",
+    "deadline": null,
+    "eligibility_notes": "Postdoc-stage; international mobility required. One host lab = one candidate per round. Seed for future.",
+    "why_it_fits": "",
+    "tags": [
+      "grant",
+      "postdoc",
+      "mobility",
+      "eu"
+    ],
+    "warm_tie": null,
+    "reachable": true,
+    "cadence": "Two rounds/year (spring & autumn; autumn deadline ~23 Jan verified for 2026 round rules)",
+    "tier": "international",
+    "_page_excerpt": "<!DOCTYPE html>\n<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->\n<html lang=\"en-GB\" prefix=\"og: https://ogp.me/ns#\" class=\"no-js\">\n<!--<![endif]-->\n<head>\n\t<meta charset=\"UTF-8\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\">\n\t\t\t<link rel=\"profile\" href=\"https://gmpg.org/xfn/11\" />\n\t    <!-- perform DNS resolution for the static fonts host -->\n    <link rel=\"preconnect\" href=\"https://static.embo.org\" crossorigin>\n\n    <!-- preload the most common font files -->\n    <link rel=\"preload\" href=\"https://static.embo.org/webfonts/fonts/noto-sans-v27-vietnamese_latin-ext_latin_greek-ext_greek_devanagari_cyrillic-ext_cyrillic/noto-sans-v27-vietnamese_latin-ext_latin_greek-ext_greek_devanagari_cyrillic-ext_cyrillic-regular.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\">\n    <link rel=\"preload\" href=\"https://static.embo.org/webfonts/fonts/noto-sans-v27-vietnamese_latin-ext_latin_greek-ext_greek_devanagari_cyrillic-ext_cyrillic/noto-sans-v27-vietnamese_latin-ext_latin_greek-ext_greek_devanagari_cyrillic-ext_cyrillic-regular.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\">\n    <link rel=\"preload\" href=\"https://static.embo.org/webfonts/fonts/noto-serif-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic/noto-serif-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\">\n    <link rel=\"preload\" href=\"https://static.embo.org/webfonts/fonts/noto-serif-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic/noto-serif-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\">\n\n    <!-- import hosted webfonts -->\n    <link rel=\"stylesheet\" href=\"https://static.embo.org/webfonts/stylesheets/noto-sans-all-languages-400_600_700.css\">\n    <link rel=\"stylesheet\" href=\"https://static.embo.org/webfonts/stylesheets/noto-serif-all-languages-400_700.css\">\n    <link rel=\"stylesheet\" href=\"https://static.embo.org/webfonts/stylesheets/roboto-condensed-all-languages-400_700.css\">\n    <link rel=\"stylesheet\" href=\"https://static.embo.org/webfonts/stylesheets/roboto-all-languages-400_700.css\">\n  \n<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->\n<title>Fellowships, grants and career support &ndash; Postdoctoral Fellowships &ndash; EMBO</title>\n<meta name=\"description\" content=\"Supporting internationally mobile postdoctoral researchers in Europe and around the world\"/>\n<meta name=\"robots\" content=\"follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large\"/>\n<link rel=\"canonical\" href=\"https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/\" />\n<meta property=\"og:locale\" content=\"en_GB\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Fellowships, grants and career support &ndash; Postdoctoral Fellowships &ndash; EMBO\" />\n<meta property=\"og:description\" content=\"Supporting internationally mobile postdoctoral researchers in Europe and around the world\" />\n<meta property=\"og:url\" content=\"https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/\" />\n<meta property=\"og:site_name\" content=\"EMBO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/EMBO.excellence.in.life.sciences\" />\n<meta property=\"og:updated_time\" content=\"2026-06-25T15:03:17+02:00\" />\n<meta property=\"fb:app_id\" content=\"226032940763066\" />\n<meta property=\"og:image\" content=\"https://www.embo.org/wp-content/uploads/2021/02/Funding_Fellows_Postdoc.png\" />\n<meta property=\"og:image:secure_url\" content=\"https://www.embo.org/wp-content/uploads/2021/02/Funding_Fellows_Postdoc.png\" />\n<meta property=\"og:image:width\" content=\"811\" />\n<meta property=\"og:image:height\" content=\"501\" />\n<meta property=\"og:image:alt\" content=\"Postdoctoral Fellowships\" />\n<meta property=\"og:image:type\" conte"
+  },
+  "14": {
+    "id": "person::https://openalex.org/A5101506671",
+    "kind": "person",
+    "title": "Pengfei Wei",
+    "source": "OpenAlex",
+    "url": "https://openalex.org/A5101506671",
+    "orcid": "https://orcid.org/0000-0003-1845-8856",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "Chinese Academy of Sciences",
+    "raw_affiliation": "CAS Key Laboratory of Brain Connectome and Manipulation, the Brain Cognition and Brain Disease Institute, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; Guangdong Provincial Key Laboratory of Brain Connectome and Behavior, the Brain Cognition and Brain Disease Institute, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China; Shenzhen Key Laboratory of Neuropsychiatric Modulation and Collaborative Innovation Center for Brain Science, Shenzhen-Hong Kong Institute of Brain Science, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China",
+    "pi_last_author": "Pengfei Wei",
+    "matched_topics": [
+      "animal social learning",
+      "behavioural ecology"
+    ],
+    "match_methods": [
+      "fallback",
+      "fallback"
+    ],
+    "example_work": "Multi-animal 3D social pose estimation, identification and behaviour embedding with a few-shot learning framework",
+    "tags": [
+      "animal social learning",
+      "behavioural ecology"
+    ],
+    "overlap": 2,
+    "discovery": "fallback",
+    "tier": "international",
+    "why_it_fits": "[fallback] overlaps 2 of your topics (animal social learning, behavioural ecology); e.g. \"Multi-animal 3D social pose estimation, identification and behaviour embedding with a few-shot learning framework\"",
+    "warm_tie": null
+  },
+  "15": {
+    "id": "source::EMBO Scientific Exchange Grants",
+    "kind": "grant",
+    "title": "EMBO Scientific Exchange Grants",
+    "source": "EMBO Scientific Exchange Grants",
+    "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/scientific-exchange-grants/",
+    "deadline": null,
+    "eligibility_notes": "Funds research visits up to 3 months to another lab to learn techniques. Good fit for a short methods exchange (e.g. modelling collaboration).",
+    "why_it_fits": "",
+    "tags": [
+      "travel",
+      "mobility",
+      "collaboration",
+      "eu"
+    ],
+    "warm_tie": null,
+    "reachable": true,
+    "cadence": "Rolling",
+    "tier": "international",
+    "_page_excerpt": "<!DOCTYPE html>\n<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->\n<html lang=\"en-GB\" prefix=\"og: https://ogp.me/ns#\" class=\"no-js\">\n<!--<![endif]-->\n<head>\n\t<meta charset=\"UTF-8\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\">\n\t\t\t<link rel=\"profile\" href=\"https://gmpg.org/xfn/11\" />\n\t    <!-- perform DNS resolution for the static fonts host -->\n    <link rel=\"preconnect\" href=\"https://static.embo.org\" crossorigin>\n\n    <!-- preload the most common font files -->\n    <link rel=\"preload\" href=\"https://static.embo.org/webfonts/fonts/noto-sans-v27-vietnamese_latin-ext_latin_greek-ext_greek_devanagari_cyrillic-ext_cyrillic/noto-sans-v27-vietnamese_latin-ext_latin_greek-ext_greek_devanagari_cyrillic-ext_cyrillic-regular.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\">\n    <link rel=\"preload\" href=\"https://static.embo.org/webfonts/fonts/noto-sans-v27-vietnamese_latin-ext_latin_greek-ext_greek_devanagari_cyrillic-ext_cyrillic/noto-sans-v27-vietnamese_latin-ext_latin_greek-ext_greek_devanagari_cyrillic-ext_cyrillic-regular.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\">\n    <link rel=\"preload\" href=\"https://static.embo.org/webfonts/fonts/noto-serif-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic/noto-serif-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\">\n    <link rel=\"preload\" href=\"https://static.embo.org/webfonts/fonts/noto-serif-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic/noto-serif-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\">\n\n    <!-- import hosted webfonts -->\n    <link rel=\"stylesheet\" href=\"https://static.embo.org/webfonts/stylesheets/noto-sans-all-languages-400_600_700.css\">\n    <link rel=\"stylesheet\" href=\"https://static.embo.org/webfonts/stylesheets/noto-serif-all-languages-400_700.css\">\n    <link rel=\"stylesheet\" href=\"https://static.embo.org/webfonts/stylesheets/roboto-condensed-all-languages-400_700.css\">\n    <link rel=\"stylesheet\" href=\"https://static.embo.org/webfonts/stylesheets/roboto-all-languages-400_700.css\">\n  \n<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->\n<title>Fellowships, grants and career support &ndash; Scientific Exchange Grants &ndash; EMBO</title>\n<meta name=\"description\" content=\"Supporting international collaborations, enabling transfer of expertise\"/>\n<meta name=\"robots\" content=\"follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large\"/>\n<link rel=\"canonical\" href=\"https://www.embo.org/funding/fellowships-grants-and-career-support/scientific-exchange-grants/\" />\n<meta property=\"og:locale\" content=\"en_GB\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Fellowships, grants and career support &ndash; Scientific Exchange Grants &ndash; EMBO\" />\n<meta property=\"og:description\" content=\"Supporting international collaborations, enabling transfer of expertise\" />\n<meta property=\"og:url\" content=\"https://www.embo.org/funding/fellowships-grants-and-career-support/scientific-exchange-grants/\" />\n<meta property=\"og:site_name\" content=\"EMBO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/EMBO.excellence.in.life.sciences\" />\n<meta property=\"og:updated_time\" content=\"2025-12-12T14:07:47+01:00\" />\n<meta property=\"fb:app_id\" content=\"226032940763066\" />\n<meta property=\"og:image\" content=\"https://www.embo.org/wp-content/uploads/2021/02/Funding_Fellows_Research_Ex.png\" />\n<meta property=\"og:image:secure_url\" content=\"https://www.embo.org/wp-content/uploads/2021/02/Funding_Fellows_Research_Ex.png\" />\n<meta property=\"og:image:width\" content=\"791\" />\n<meta property=\"og:image:height\" content=\"541\" />\n<meta property=\"og:image:alt\" content=\"Scientific Exchange Grants\" />\n<meta property=\"og:image:type\" content=\"image/png\" />\n"
+  },
+  "16": {
+    "id": "person::https://openalex.org/A5029520140",
+    "kind": "person",
+    "title": "Micah M. Murray",
+    "source": "OpenAlex",
+    "url": "https://openalex.org/A5029520140",
+    "orcid": "https://orcid.org/0000-0002-7821-117X",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "Vanderbilt University",
+    "raw_affiliation": "Department of Radiology, Lausanne University Hospital and University of Lausanne, Lausanne, Switzerland; The Sense Innovation and Research Center, Lausanne and Sion, Switzerland; Department of Hearing and Speech Sciences, Vanderbilt University, Nashville, TN 37232, USA. Electronic address: micah.murray@chuv.ch; Department of Hearing and Speech Sciences, Vanderbilt University, Nashville, TN 37232, USA; Department of Radiology, Lausanne University Hospital and University of Lausanne, Lausanne, Switzerland; The Sense Innovation and Research Center, Lausanne and Sion, Switzerland",
+    "pi_last_author": "Kara D. Federmeier",
+    "matched_topics": [
+      "animal cognition"
+    ],
+    "match_methods": [
+      "topic:Human-Animal Interaction Studies"
+    ],
+    "example_work": "Animal cognition: Dogs build semantic expectations between spoken words and objects",
+    "tags": [
+      "animal cognition"
+    ],
+    "overlap": 1,
+    "discovery": "topic",
+    "tier": "international",
+    "why_it_fits": "[topic] overlaps 1 of your topics (animal cognition); e.g. \"Animal cognition: Dogs build semantic expectations between spoken words and objects\"",
+    "warm_tie": null
+  },
+  "17": {
+    "id": "source::Erasmus+ (traineeships / mobility)",
+    "kind": "grant",
+    "title": "Erasmus+ (traineeships / mobility)",
+    "source": "Erasmus+ (traineeships / mobility)",
+    "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals",
+    "deadline": null,
+    "eligibility_notes": "Usually routed through your university's international office; note as a channel, not a direct call.",
+    "why_it_fits": "",
+    "tags": [
+      "mobility",
+      "travel",
+      "eu"
+    ],
+    "warm_tie": null,
+    "reachable": true,
+    "cadence": "Via home institution",
+    "tier": "international",
+    "_page_excerpt": "<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\" prefix=\"og: https://ogp.me/ns#\">\n  <head>\n    <meta charset=\"utf-8\" />\n<noscript><style>form.antibot > * { display: none !important; } form.antibot noscript { display: block !important; }</style>\n</noscript><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\n<meta name=\"description\" content=\"Students, youth workers, adult learners and more. You&#039;ll apply through your university or training centre for many of these opportunities.\" />\n<link rel=\"canonical\" href=\"https://erasmus-plus.ec.europa.eu/opportunities/individuals\" />\n<meta property=\"og:site_name\" content=\"Erasmus+\" />\n<meta property=\"og:type\" content=\"Content page\" />\n<meta property=\"og:url\" content=\"https://erasmus-plus.ec.europa.eu/opportunities/individuals\" />\n<meta property=\"og:title\" content=\"Opportunities for individuals\" />\n<meta property=\"og:description\" content=\"Below you&#039;ll see the many ways you can take part in Erasmus+.\" />\n<meta name=\"Generator\" content=\"Drupal 11 (https://www.drupal.org)\" />\n<meta name=\"MobileOptimized\" content=\"width\" />\n<meta name=\"HandheldFriendly\" content=\"true\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<meta name=\"theme-color\" content=\"#0E3051\" />\n<link rel=\"icon\" href=\"/profiles/custom/eac_profile/themes/eac_theme/images/eche/ec_flag.svg\" type=\"image/svg+xml\" />\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://erasmus-plus.ec.europa.eu/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"bg\" href=\"https://erasmus-plus.ec.europa.eu/bg/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"hr\" href=\"https://erasmus-plus.ec.europa.eu/hr/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"cs\" href=\"https://erasmus-plus.ec.europa.eu/cs/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"da\" href=\"https://erasmus-plus.ec.europa.eu/da/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"nl\" href=\"https://erasmus-plus.ec.europa.eu/nl/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"et\" href=\"https://erasmus-plus.ec.europa.eu/et/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"fi\" href=\"https://erasmus-plus.ec.europa.eu/fi/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"fr\" href=\"https://erasmus-plus.ec.europa.eu/fr/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"de\" href=\"https://erasmus-plus.ec.europa.eu/de/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"el\" href=\"https://erasmus-plus.ec.europa.eu/el/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"hu\" href=\"https://erasmus-plus.ec.europa.eu/hu/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"ga\" href=\"https://erasmus-plus.ec.europa.eu/ga/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"it\" href=\"https://erasmus-plus.ec.europa.eu/it/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"lv\" href=\"https://erasmus-plus.ec.europa.eu/lv/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"lt\" href=\"https://erasmus-plus.ec.europa.eu/lt/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"mt\" href=\"https://erasmus-plus.ec.europa.eu/mt/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"pl\" href=\"https://erasmus-plus.ec.europa.eu/pl/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"pt-pt\" href=\"https://erasmus-plus.ec.europa.eu/pt-pt/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"ro\" href=\"https://erasmus-plus.ec.europa.eu/ro/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"sk\" href=\"https://erasmus-plus.ec.europa.eu/sk/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"sl\" href=\"https://erasmus-plus.ec.europa.eu/sl/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"es\" href=\"https://erasmus-plus.ec.europa.eu/es/opportunities/individuals\" />\n<link rel=\"alternate\" hreflang=\"sv\" href=\"https://erasmus-plus.ec.europa.eu/sv/opportunities/individuals\" />\n\n    <ti"
+  },
+  "18": {
+    "id": "person::https://openalex.org/A5006526693",
+    "kind": "person",
+    "title": "Kara D. Federmeier",
+    "source": "OpenAlex",
+    "url": "https://openalex.org/A5006526693",
+    "orcid": "https://orcid.org/0000-0002-7815-1808",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "University of Illinois Urbana-Champaign",
+    "raw_affiliation": "Department of Psychology, University of Illinois at Urbana-Champaign, Champaign, IL, USA; Departments of Linguistics and Kinesiology, University of Illinois at Urbana-Champaign, Champaign, IL, USA; Program in Neuroscience and the Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Champaign, IL, USA; Department of Psychology, University of Illinois at Urbana-Champaign, Champaign, IL, USA; Departments of Linguistics and Kinesiology, University of Illinois at Urbana-Champaign, Champaign, IL, USA; Program in Neuroscience and the Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Champaign, IL, USA",
+    "pi_last_author": "Kara D. Federmeier",
+    "matched_topics": [
+      "animal cognition"
+    ],
+    "match_methods": [
+      "topic:Human-Animal Interaction Studies"
+    ],
+    "example_work": "Animal cognition: Dogs build semantic expectations between spoken words and objects",
+    "tags": [
+      "animal cognition"
+    ],
+    "overlap": 1,
+    "discovery": "topic",
+    "tier": "international",
+    "why_it_fits": "[topic] overlaps 1 of your topics (animal cognition); e.g. \"Animal cognition: Dogs build semantic expectations between spoken words and objects\"",
+    "warm_tie": null
+  }
+}
