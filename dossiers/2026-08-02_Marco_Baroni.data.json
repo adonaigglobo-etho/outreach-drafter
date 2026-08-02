@@ -1,0 +1,68 @@
+{
+  "item": {
+    "id": "person::https://openalex.org/A5038612405",
+    "kind": "person",
+    "title": "Marco Baroni",
+    "source": "OpenAlex",
+    "url": "https://openalex.org/A5038612405",
+    "orcid": "https://orcid.org/0000-0001-5066-3580",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "Institució Catalana de Recerca i Estudis Avançats",
+    "raw_affiliation": "Catalan Institution for Research and Advanced Studies (ICREA), Barcelona, Spain; Department of Translation and Language Sciences, Universitat Pompeu Fabra, Barcelona, Spain",
+    "pi_last_author": "Marco Baroni",
+    "matched_topics": [
+      "behavioural flexibility"
+    ],
+    "match_methods": [
+      "fallback"
+    ],
+    "example_work": "Human-like systematic generalization through a meta-learning neural network",
+    "tags": [
+      "behavioural flexibility"
+    ],
+    "overlap": 1,
+    "discovery": "fallback",
+    "tier": "regional",
+    "why_it_fits": "[fallback] overlaps 1 of your topics (behavioural flexibility); e.g. \"Human-like systematic generalization through a meta-learning neural network\"",
+    "warm_tie": null,
+    "approved_at": "2026-08-02"
+  },
+  "research": {
+    "signature": {
+      "title": "Don't count, predict! A systematic comparison of context-counting vs. context-predicting semantic vectors",
+      "year": 2014,
+      "cited": 1382
+    },
+    "recent": [
+      {
+        "title": "Stereotypical gender actions can be extracted from Web text",
+        "year": 2025
+      },
+      {
+        "title": "A vein bypass first versus a best endovascular treatment first revascularization strategy for patients with chronic limb-threatening ischaemia who require an infra-popliteal, with or without an additional more proximal infra-inguinal, revascularization procedure to restore limb perfusion: the BASIL-2 within-trial health economic analysis",
+        "year": 2025
+      },
+      {
+        "title": "Not a nuisance but a useful heuristic: Outlier dimensions favor frequent tokens in language models",
+        "year": 2025
+      },
+      {
+        "title": "Prediction hubs are context-informed frequent tokens in LLMs",
+        "year": 2025
+      }
+    ],
+    "funders": [
+      "National Institute for Health and Care Research",
+      "Università degli Studi di Trento"
+    ],
+    "n_works": null,
+    "note": ""
+  },
+  "brief_flags": {
+    "language": "Spanish",
+    "warm_tie": null
+  },
+  "safe": "Marco_Baroni",
+  "date": "2026-08-02"
+}
