@@ -217,6 +217,9 @@ def main():
     pending = [q for q in queue if q.get("id") not in done]
 
     if not pending:
+        # clear the manifest so build_dossier.py doesn't rebuild a previous run's items
+        DOSS = ROOT / "dossiers"; DOSS.mkdir(exist_ok=True)
+        (DOSS / "_build_manifest.json").write_text("[]", encoding="utf-8")
         print("Nothing pending in approved_queue.json.")
         return
 
@@ -254,6 +257,13 @@ def main():
         done.add(item.get("id"))
 
     (CTX / "drafted.json").write_text(json.dumps(sorted(done), indent=2), encoding="utf-8")
+    # Remove the items we just processed from the queue so future runs don't redo them.
+    remaining = [q for q in queue if q.get("id") not in done]
+    QUEUE.write_text(json.dumps(remaining, indent=2, ensure_ascii=False), encoding="utf-8")
+    # Record exactly which items were built THIS run, so build_dossier.py only
+    # renders these (not every .data.json ever left in the folder).
+    (DOSSIERS / "_build_manifest.json").write_text(
+        json.dumps(written, indent=2), encoding="utf-8")
     print(f"Prepared {len(written)} item(s) with research:")
     for w in written:
         print("  -", w)

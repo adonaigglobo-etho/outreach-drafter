@@ -154,9 +154,19 @@ def build_one(data_path):
     return out
 
 def main():
-    data_files = sorted(DOSSIERS.glob("*.data.json"))
+    manifest = DOSSIERS / "_build_manifest.json"
+    if manifest.exists():
+        try:
+            safes = json.loads(manifest.read_text(encoding="utf-8"))
+            data_files = [DOSSIERS / f for s in safes
+                          for f in DOSSIERS.glob(f"*_{s}.data.json")]
+            data_files = sorted(set(data_files))
+        except Exception:
+            data_files = sorted(DOSSIERS.glob("*.data.json"))
+    else:
+        data_files = sorted(DOSSIERS.glob("*.data.json"))
     if not data_files:
-        print("No dossier data files in dossiers/. Run draft.py first.")
+        print("Nothing new to build (no manifest / no data files). Skipping.")
         return
     built = []
     for d in data_files:
