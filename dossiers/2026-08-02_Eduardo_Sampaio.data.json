@@ -1,0 +1,44 @@
+{
+  "item": {
+    "id": "person::https://openalex.org/A5032193561",
+    "kind": "person",
+    "title": "Eduardo Sampaio",
+    "source": "OpenAlex",
+    "url": "https://openalex.org/A5032193561",
+    "orcid": "https://orcid.org/0000-0002-9222-2553",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "University of Lisbon",
+    "raw_affiliation": "Centre for the Advanced Study of Collective Behaviour, University of Konstanz, Konstanz, Germany. esampaio@ab.mpg.de; Department of Biology, University of Konstanz, Konstanz, Germany. esampaio@ab.mpg.de; Department of Collective Behaviour, Max Planck Institute of Animal Behavior, Konstanz, Germany. esampaio@ab.mpg.de; MARE-Marine and Environmental Sciences Centre, Laboratório Marítimo da Guia, Faculdade de Ciências, Universidade de Lisboa, Lisbon, Portugal. esampaio@ab.mpg.de",
+    "pi_last_author": "Simon Gingins",
+    "matched_topics": [
+      "collective animal behaviour"
+    ],
+    "match_methods": [
+      "fallback"
+    ],
+    "example_work": "Multidimensional social influence drives leadership and composition-dependent success in octopus–fish hunting groups",
+    "tags": [
+      "collective animal behaviour"
+    ],
+    "overlap": 1,
+    "discovery": "fallback",
+    "tier": "national",
+    "why_it_fits": "[fallback] overlaps 1 of your topics (collective animal behaviour); e.g. \"Multidimensional social influence drives leadership and composition-dependent success in octopus–fish hunting groups\"",
+    "warm_tie": null,
+    "approved_at": "2026-08-02"
+  },
+  "research": {
+    "signature": null,
+    "recent": [],
+    "funders": [],
+    "n_works": null,
+    "note": "signature fetch failed; recent fetch failed; No funding data recorded in OpenAlex (does not mean unfunded)."
+  },
+  "brief_flags": {
+    "language": "English",
+    "warm_tie": null
+  },
+  "safe": "Eduardo_Sampaio",
+  "date": "2026-08-02"
+}

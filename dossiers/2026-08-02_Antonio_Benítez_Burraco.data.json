@@ -1,0 +1,44 @@
+{
+  "item": {
+    "id": "person::https://openalex.org/A5012649250",
+    "kind": "person",
+    "title": "Antonio Benítez‐Burraco",
+    "source": "OpenAlex-ES",
+    "url": "https://openalex.org/A5012649250",
+    "orcid": "https://orcid.org/0000-0003-4574-5666",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "Vrije Universiteit Brussel",
+    "raw_affiliation": "Department of Spanish, Linguistics, and Theory of Literature, University of Seville 41004 Seville, Spain; Vrije Universiteit Brussel",
+    "pi_last_author": "Antonio Benítez‐Burraco",
+    "matched_topics": [
+      "animal cognition"
+    ],
+    "match_methods": [
+      "topic-ES:Human-Animal Interaction Studies"
+    ],
+    "example_work": "Elephants as an animal model for self-domestication",
+    "tags": [
+      "animal cognition"
+    ],
+    "overlap": 1,
+    "discovery": "topic-ES",
+    "tier": "national",
+    "why_it_fits": "[topic-ES] Spain-based; overlaps 1 of your topics (animal cognition); e.g. \"Elephants as an animal model for self-domestication\"",
+    "warm_tie": null,
+    "approved_at": "2026-08-02"
+  },
+  "research": {
+    "signature": null,
+    "recent": [],
+    "funders": [],
+    "n_works": null,
+    "note": "signature fetch failed; recent fetch failed; No funding data recorded in OpenAlex (does not mean unfunded)."
+  },
+  "brief_flags": {
+    "language": "Spanish",
+    "warm_tie": null
+  },
+  "safe": "Antonio_Benítez_Burraco",
+  "date": "2026-08-02"
+}

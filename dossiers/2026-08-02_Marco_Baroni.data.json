@@ -1,0 +1,44 @@
+{
+  "item": {
+    "id": "person::https://openalex.org/A5038612405",
+    "kind": "person",
+    "title": "Marco Baroni",
+    "source": "OpenAlex",
+    "url": "https://openalex.org/A5038612405",
+    "orcid": "https://orcid.org/0000-0001-5066-3580",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "Institució Catalana de Recerca i Estudis Avançats",
+    "raw_affiliation": "Catalan Institution for Research and Advanced Studies (ICREA), Barcelona, Spain; Department of Translation and Language Sciences, Universitat Pompeu Fabra, Barcelona, Spain",
+    "pi_last_author": "Marco Baroni",
+    "matched_topics": [
+      "behavioural flexibility"
+    ],
+    "match_methods": [
+      "fallback"
+    ],
+    "example_work": "Human-like systematic generalization through a meta-learning neural network",
+    "tags": [
+      "behavioural flexibility"
+    ],
+    "overlap": 1,
+    "discovery": "fallback",
+    "tier": "regional",
+    "why_it_fits": "[fallback] overlaps 1 of your topics (behavioural flexibility); e.g. \"Human-like systematic generalization through a meta-learning neural network\"",
+    "warm_tie": null,
+    "approved_at": "2026-08-02"
+  },
+  "research": {
+    "signature": null,
+    "recent": [],
+    "funders": [],
+    "n_works": null,
+    "note": "signature fetch failed; recent fetch failed; No funding data recorded in OpenAlex (does not mean unfunded)."
+  },
+  "brief_flags": {
+    "language": "Spanish",
+    "warm_tie": null
+  },
+  "safe": "Marco_Baroni",
+  "date": "2026-08-02"
+}

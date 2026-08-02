@@ -50,6 +50,7 @@ def parse_email_md(path):
     return subject, "\n".join(body_lines).strip()
 
 class Dossier(FPDF):
+    italic_available = False
     def header(self):
         pass
     def footer(self):
@@ -60,6 +61,8 @@ class Dossier(FPDF):
                         f"review before sending — nothing was sent", align="C")
         self.set_text_color(0,0,0)
     def _font(self, style="", size=11):
+        if style == "I" and not self.italic_available:
+            style = ""
         self.set_font("DejaVu", style, size)
     def mc(self, txt, h=6):
         # always return cursor to the left margin on the next line
@@ -84,6 +87,7 @@ def build_one(data_path):
     pdf.add_font("DejaVu", "B", FONT_BOLD)
     if os.path.exists(FONT_ITAL):
         pdf.add_font("DejaVu", "I", FONT_ITAL)
+        pdf.italic_available = True
     pdf.add_page()
 
     # Title
