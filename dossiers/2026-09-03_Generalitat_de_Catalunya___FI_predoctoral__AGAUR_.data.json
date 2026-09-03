@@ -1,0 +1,35 @@
+{
+  "item": {
+    "id": "source::Generalitat de Catalunya — FI predoctoral (AGAUR)",
+    "kind": "grant",
+    "title": "Generalitat de Catalunya — FI predoctoral (AGAUR)",
+    "source": "Generalitat de Catalunya — FI predoctoral (AGAUR)",
+    "url": "https://agaur.gencat.cat/en/beques-i-ajuts/",
+    "deadline": null,
+    "eligibility_notes": "Regional predoc (relevant if targeting Catalan institutions, e.g. CREAF/CSIC Barcelona — see Daniel Sol in network.yaml).",
+    "why_it_fits": "",
+    "tags": [
+      "grant",
+      "predoc",
+      "spain"
+    ],
+    "warm_tie": null,
+    "reachable": true,
+    "cadence": "Annual",
+    "tier": "regional",
+    "_page_excerpt": "<!DOCTYPE html>\n<html xml:lang=\"en-GB\" lang=\"en-GB\">\n\t\t<head>\n\t\t\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<meta name=\"WT.z_idioma\" content='en' />\n\n<!---->\n<title>scholarships and grants. Agency for Management of University and Research Grants</title>\n<link rel='alternate' hreflang='ca' href='https://agaur.gencat.cat/ca/beques-i-ajuts/index.html' /><link rel='alternate' hreflang='es' href='https://agaur.gencat.cat/es/beques-i-ajuts/index.html' /><link rel='alternate' hreflang='en' href='https://agaur.gencat.cat/en/beques-i-ajuts/index.html' /><link rel='alternate' hreflang='x-default' href='https://agaur.gencat.cat/' /><!--AGÈNCIA DE GESTIÓ D’AJUTS UNIVERSITARIS I DE RECERCA-->\n\n<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/web/resources/fwkResponsives/common/img/favicon.ico\" />\n\n\n<link href=\"/web/resources/fwkResponsives/common/css/bootstrap.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsives/common/css/styles.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsives/common/css/leaflet.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsives/common/css/master.responsive.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<!--[if IE 9]>\n\t<link href=\"/web/resources/fwkResponsives/common/css/master.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n\t<link href=\"/web/resources/fwkResponsives/common/css/style_IE9.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<![endif]-->\n<script src=\"/web/resources/fwkResponsives/common/js/jquery.min.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/jquery-ui.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/master.min.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/entorn_config.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/generic_responsive.js\" type=\"text/javascript\"></script>\n<script src=\"/web/resources/fwkResponsives/common/js/master.responsive.js\" type=\"text/javascript\"></script>\n<!--[if lt IE 9]>\n\t<link href=\"/web/resources/fwkResponsives/common/css/style_IE8.css\" rel=\"stylesheet\" type=\"text/css\"/>\n\t<script type=\"text/javascript\" src=\"/web/resources/fwkResponsives/common/js/respond.min.js\"></script>\n\t<script type=\"text/javascript\" src=\"/web/resources/fwkResponsives/common/js/modernizr.js\"></script>\n<![endif]-->\n\n<link href=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/css/fpca_peu_xarxesSocials.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_distribuidora_nova/css/fpca_distribuidora_nova.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_diapositives/css/fpca_diapositives.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_llista_enllacIcones/css/fpca_llista_enllacIcones.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_tramit_cercador/css/fpca_tramit_cercador.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_llista/css/fpca_llista.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_llista_fonsDestacat/css/fpca_llista_fonsDestacat.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_peu/css/fpca_peu.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_capcalera/css/capcalera.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/common/css/simplebar.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"/web/resources/fwkResponsive/fpca_subcapcalera/css/fpca_subcapcalera.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<script src=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/js/fpca_peu_xarxesSocials.js\" type=\"text/javascript\"></script>\n<script sr",
+    "approved_at": "2026-09-03"
+  },
+  "research": {
+    "note": "Grant item — research is the call page summary; see eligibility notes.",
+    "signature": null,
+    "recent": [],
+    "funders": []
+  },
+  "brief_flags": {
+    "language": "Spanish",
+    "warm_tie": null
+  },
+  "safe": "Generalitat_de_Catalunya___FI_predoctoral__AGAUR_",
+  "date": "2026-09-03"
+}

@@ -1,0 +1,36 @@
+{
+  "item": {
+    "id": "source::EMBO Scientific Exchange Grants",
+    "kind": "grant",
+    "title": "EMBO Scientific Exchange Grants",
+    "source": "EMBO Scientific Exchange Grants",
+    "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/scientific-exchange-grants/",
+    "deadline": null,
+    "eligibility_notes": "Funds research visits up to 3 months to another lab to learn techniques. Good fit for a short methods exchange (e.g. modelling collaboration).",
+    "why_it_fits": "",
+    "tags": [
+      "travel",
+      "mobility",
+      "collaboration",
+      "eu"
+    ],
+    "warm_tie": null,
+    "reachable": true,
+    "cadence": "Rolling",
+    "tier": "international",
+    "_page_excerpt": "<!DOCTYPE html>\n<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->\n<html lang=\"en-GB\" prefix=\"og: https://ogp.me/ns#\" class=\"no-js\">\n<!--<![endif]-->\n<head>\n\t<meta charset=\"UTF-8\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\">\n\t\t\t<link rel=\"profile\" href=\"https://gmpg.org/xfn/11\" />\n\t    <!-- perform DNS resolution for the static fonts host -->\n    <link rel=\"preconnect\" href=\"https://static.embo.org\" crossorigin>\n\n    <!-- preload the most common font files -->\n    <link rel=\"preload\" href=\"https://static.embo.org/webfonts/fonts/noto-sans-v27-vietnamese_latin-ext_latin_greek-ext_greek_devanagari_cyrillic-ext_cyrillic/noto-sans-v27-vietnamese_latin-ext_latin_greek-ext_greek_devanagari_cyrillic-ext_cyrillic-regular.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\">\n    <link rel=\"preload\" href=\"https://static.embo.org/webfonts/fonts/noto-sans-v27-vietnamese_latin-ext_latin_greek-ext_greek_devanagari_cyrillic-ext_cyrillic/noto-sans-v27-vietnamese_latin-ext_latin_greek-ext_greek_devanagari_cyrillic-ext_cyrillic-regular.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\">\n    <link rel=\"preload\" href=\"https://static.embo.org/webfonts/fonts/noto-serif-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic/noto-serif-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\">\n    <link rel=\"preload\" href=\"https://static.embo.org/webfonts/fonts/noto-serif-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic/noto-serif-v21-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\">\n\n    <!-- import hosted webfonts -->\n    <link rel=\"stylesheet\" href=\"https://static.embo.org/webfonts/stylesheets/noto-sans-all-languages-400_600_700.css\">\n    <link rel=\"stylesheet\" href=\"https://static.embo.org/webfonts/stylesheets/noto-serif-all-languages-400_700.css\">\n    <link rel=\"stylesheet\" href=\"https://static.embo.org/webfonts/stylesheets/roboto-condensed-all-languages-400_700.css\">\n    <link rel=\"stylesheet\" href=\"https://static.embo.org/webfonts/stylesheets/roboto-all-languages-400_700.css\">\n  \n<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->\n<title>Fellowships, grants and career support &ndash; Scientific Exchange Grants &ndash; EMBO</title>\n<meta name=\"description\" content=\"Supporting international collaborations, enabling transfer of expertise\"/>\n<meta name=\"robots\" content=\"follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large\"/>\n<link rel=\"canonical\" href=\"https://www.embo.org/funding/fellowships-grants-and-career-support/scientific-exchange-grants/\" />\n<meta property=\"og:locale\" content=\"en_GB\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Fellowships, grants and career support &ndash; Scientific Exchange Grants &ndash; EMBO\" />\n<meta property=\"og:description\" content=\"Supporting international collaborations, enabling transfer of expertise\" />\n<meta property=\"og:url\" content=\"https://www.embo.org/funding/fellowships-grants-and-career-support/scientific-exchange-grants/\" />\n<meta property=\"og:site_name\" content=\"EMBO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/EMBO.excellence.in.life.sciences\" />\n<meta property=\"og:updated_time\" content=\"2025-12-12T14:07:47+01:00\" />\n<meta property=\"fb:app_id\" content=\"226032940763066\" />\n<meta property=\"og:image\" content=\"https://www.embo.org/wp-content/uploads/2021/02/Funding_Fellows_Research_Ex.png\" />\n<meta property=\"og:image:secure_url\" content=\"https://www.embo.org/wp-content/uploads/2021/02/Funding_Fellows_Research_Ex.png\" />\n<meta property=\"og:image:width\" content=\"791\" />\n<meta property=\"og:image:height\" content=\"541\" />\n<meta property=\"og:image:alt\" content=\"Scientific Exchange Grants\" />\n<meta property=\"og:image:type\" content=\"image/png\" />\n",
+    "approved_at": "2026-09-02"
+  },
+  "research": {
+    "note": "Grant item — research is the call page summary; see eligibility notes.",
+    "signature": null,
+    "recent": [],
+    "funders": []
+  },
+  "brief_flags": {
+    "language": "English",
+    "warm_tie": null
+  },
+  "safe": "EMBO_Scientific_Exchange_Grants",
+  "date": "2026-09-03"
+}
