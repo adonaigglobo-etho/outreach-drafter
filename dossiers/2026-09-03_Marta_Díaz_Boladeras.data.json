@@ -1,0 +1,44 @@
+{
+  "item": {
+    "id": "person::https://openalex.org/A5029348330",
+    "kind": "person",
+    "title": "Marta Díaz Boladeras",
+    "source": "OpenAlex-ES",
+    "url": "https://openalex.org/A5029348330",
+    "orcid": "https://orcid.org/0000-0001-8215-0499",
+    "deadline": null,
+    "eligibility_notes": "",
+    "institution": "Cidete (Spain)",
+    "raw_affiliation": "Technical Research Centre for Dependency Care and Autonomous Living (CETpD), Rambla Exposició, 59., 08800, Vilanova i la Geltrú, Spain; Universitat Politècnica de Catalunya, BarcelonaTech (UPC), Catalonia, Spain",
+    "pi_last_author": "",
+    "matched_topics": [
+      "animal cognition"
+    ],
+    "match_methods": [
+      "topic-ES:Human-Animal Interaction Studies"
+    ],
+    "example_work": "Bond formation with pet-robots: An integrative approach",
+    "tags": [
+      "animal cognition"
+    ],
+    "overlap": 1,
+    "discovery": "topic-ES",
+    "tier": "regional",
+    "why_it_fits": "[topic-ES] Spain-based; overlaps 1 of your topics (animal cognition); e.g. \"Bond formation with pet-robots: An integrative approach\"",
+    "warm_tie": null,
+    "approved_at": "2026-09-03"
+  },
+  "research": {
+    "signature": null,
+    "recent": [],
+    "funders": [],
+    "n_works": null,
+    "note": "signature fetch failed; recent fetch failed; No funding data recorded in OpenAlex (does not mean unfunded)."
+  },
+  "brief_flags": {
+    "language": "Spanish",
+    "warm_tie": null
+  },
+  "safe": "Marta_Díaz_Boladeras",
+  "date": "2026-09-03"
+}
