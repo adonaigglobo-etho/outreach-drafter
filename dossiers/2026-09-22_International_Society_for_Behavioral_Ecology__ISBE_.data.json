@@ -1,0 +1,27 @@
+{
+  "item": {
+    "id": "source::International Society for Behavioral Ecology (ISBE)",
+    "kind": "grant",
+    "title": "International Society for Behavioral Ecology (ISBE)",
+    "url": "https://behavecol.org/",
+    "tier": "international",
+    "why_it_fits": "Congress travel awards + occasional grants, directly on-profile for behavioural ecology.",
+    "eligibility_notes": "Confirm current schemes on-site — no specific deadline parsed this run.",
+    "deadline": null,
+    "institution": "",
+    "warm_tie": null,
+    "approved_at": "2026-09-22"
+  },
+  "research": {
+    "note": "Grant item — research is the call page summary; see eligibility notes.",
+    "signature": null,
+    "recent": [],
+    "funders": []
+  },
+  "brief_flags": {
+    "language": "English",
+    "warm_tie": null
+  },
+  "safe": "International_Society_for_Behavioral_Ecology__ISBE_",
+  "date": "2026-09-22"
+}

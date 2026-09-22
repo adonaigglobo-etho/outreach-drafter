@@ -1,0 +1,27 @@
+{
+  "item": {
+    "id": "source::Animal Behavior Society — Grants & Awards",
+    "kind": "grant",
+    "title": "Animal Behavior Society — Grants & Awards",
+    "url": "https://www.animalbehaviorsociety.org/web/awards.php",
+    "tier": "international",
+    "why_it_fits": "Early Career Research Grants, Student Research Grants, Travel Awards, plus named awards — broad, on-profile funding menu for animal-behaviour ECRs.",
+    "eligibility_notes": "Many of these awards require ABS (or ASAB) membership in good standing — join before applying.",
+    "deadline": null,
+    "institution": "",
+    "warm_tie": null,
+    "approved_at": "2026-09-22"
+  },
+  "research": {
+    "note": "Grant item — research is the call page summary; see eligibility notes.",
+    "signature": null,
+    "recent": [],
+    "funders": []
+  },
+  "brief_flags": {
+    "language": "English",
+    "warm_tie": null
+  },
+  "safe": "Animal_Behavior_Society___Grants___Awards",
+  "date": "2026-09-22"
+}

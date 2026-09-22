@@ -1,0 +1,27 @@
+{
+  "item": {
+    "id": "source::ASAB Scholarships & smaller grants",
+    "kind": "grant",
+    "title": "ASAB Scholarships & smaller grants",
+    "url": "https://www.asab.org/grant-overview",
+    "tier": "international",
+    "why_it_fits": "Conference support, education grants, and caregiver grants alongside the main ASAB Research Grants line — worth skimming for anything ECR-eligible.",
+    "eligibility_notes": "various",
+    "deadline": null,
+    "institution": "",
+    "warm_tie": null,
+    "approved_at": "2026-09-22"
+  },
+  "research": {
+    "note": "Grant item — research is the call page summary; see eligibility notes.",
+    "signature": null,
+    "recent": [],
+    "funders": []
+  },
+  "brief_flags": {
+    "language": "English",
+    "warm_tie": null
+  },
+  "safe": "ASAB_Scholarships___smaller_grants",
+  "date": "2026-09-22"
+}

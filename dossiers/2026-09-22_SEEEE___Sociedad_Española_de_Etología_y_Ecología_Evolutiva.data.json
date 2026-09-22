@@ -1,0 +1,27 @@
+{
+  "item": {
+    "id": "source::SEEEE — Sociedad Española de Etología y Ecología Evolutiva",
+    "kind": "grant",
+    "title": "SEEEE — Sociedad Española de Etología y Ecología Evolutiva",
+    "url": "https://etologia.org/",
+    "tier": "national",
+    "why_it_fits": "The Spanish ethology/evolutionary-ecology society — directly on-profile and Spain-based; runs young-researcher / best-thesis awards plus congress travel support.",
+    "eligibility_notes": "No specific deadline parsed this run — check the current cycle on-site.",
+    "deadline": null,
+    "institution": "",
+    "warm_tie": null,
+    "approved_at": "2026-09-22"
+  },
+  "research": {
+    "note": "Grant item — research is the call page summary; see eligibility notes.",
+    "signature": null,
+    "recent": [],
+    "funders": []
+  },
+  "brief_flags": {
+    "language": "Spanish",
+    "warm_tie": null
+  },
+  "safe": "SEEEE___Sociedad_Española_de_Etología_y_Ecología_Evolutiva",
+  "date": "2026-09-22"
+}

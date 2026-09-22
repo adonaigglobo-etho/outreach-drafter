@@ -1,0 +1,27 @@
+{
+  "item": {
+    "id": "source::AEI — Agencia Estatal de Investigación (all calls)",
+    "kind": "grant",
+    "title": "AEI — Agencia Estatal de Investigación (all calls)",
+    "url": "https://www.aei.gob.es/convocatorias/buscador-convocatorias",
+    "tier": "national",
+    "why_it_fits": "Master index of all Spanish state research funding (predoc/postdoc); the place to check for FPI-adjacent and other rolling national calls.",
+    "eligibility_notes": "Broad portal — no specific open call surfaced this run; needs manual browsing/filtering by tag.",
+    "deadline": null,
+    "institution": "",
+    "warm_tie": null,
+    "approved_at": "2026-09-22"
+  },
+  "research": {
+    "note": "Grant item — research is the call page summary; see eligibility notes.",
+    "signature": null,
+    "recent": [],
+    "funders": []
+  },
+  "brief_flags": {
+    "language": "Spanish",
+    "warm_tie": null
+  },
+  "safe": "AEI___Agencia_Estatal_de_Investigación__all_calls_",
+  "date": "2026-09-22"
+}

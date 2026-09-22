@@ -1,0 +1,28 @@
+{
+  "item": {
+    "id": "person::https://openalex.org/A5035178188",
+    "kind": "person",
+    "title": "Louis Lefebvre",
+    "url": "https://openalex.org/A5035178188",
+    "tier": "regional",
+    "why_it_fits": "Pioneer of avian cognitive-innovation research ('How do big brains evolve?') — squarely on the bird/comparative-cognition profile; CREAF/UAB tie makes it a genuinely local door if he is on campus.",
+    "eligibility_notes": "Fit caveat: primary affiliation is McGill (Montreal); CREAF/UAB is a secondary Barcelona affiliation — confirm he is locally based before assuming in-person reach.",
+    "deadline": null,
+    "institution": "CREAF, Autonomous University of Barcelona (primary: McGill University, Montreal)",
+    "warm_tie": null,
+    "approved_at": "2026-09-22"
+  },
+  "research": {
+    "signature": null,
+    "recent": [],
+    "funders": [],
+    "n_works": null,
+    "note": "signature fetch failed; recent fetch failed; No funding data recorded in OpenAlex (does not mean unfunded)."
+  },
+  "brief_flags": {
+    "language": "Spanish",
+    "warm_tie": null
+  },
+  "safe": "Louis_Lefebvre",
+  "date": "2026-09-22"
+}

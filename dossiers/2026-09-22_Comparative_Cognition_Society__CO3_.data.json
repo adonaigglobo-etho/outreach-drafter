@@ -1,0 +1,27 @@
+{
+  "item": {
+    "id": "source::Comparative Cognition Society (CO3)",
+    "kind": "grant",
+    "title": "Comparative Cognition Society (CO3)",
+    "url": "https://www.comparativecognition.org/student_awards.php",
+    "tier": "international",
+    "why_it_fits": "THE defining society for this profile. Student awards (publication, best talk/poster, travel) plus the Stan Kuczaj Memorial Travel Grant; a separate Early Career Award exists for later (first 5 yrs post-PhD, $1000).",
+    "eligibility_notes": "Must be a current CCS member to apply for any of the awards.",
+    "deadline": "student-award deadlines ~Dec; Stan Kuczaj travel grant ~28 Feb",
+    "institution": "",
+    "warm_tie": null,
+    "approved_at": "2026-09-22"
+  },
+  "research": {
+    "note": "Grant item — research is the call page summary; see eligibility notes.",
+    "signature": null,
+    "recent": [],
+    "funders": []
+  },
+  "brief_flags": {
+    "language": "English",
+    "warm_tie": null
+  },
+  "safe": "Comparative_Cognition_Society__CO3_",
+  "date": "2026-09-22"
+}

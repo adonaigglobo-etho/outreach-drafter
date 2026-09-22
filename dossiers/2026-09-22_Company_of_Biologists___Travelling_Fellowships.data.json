@@ -1,0 +1,27 @@
+{
+  "item": {
+    "id": "source::Company of Biologists — Travelling Fellowships",
+    "kind": "grant",
+    "title": "Company of Biologists — Travelling Fellowships",
+    "url": "https://www.biologists.com/grants/travelling-fellowships/",
+    "tier": "international",
+    "why_it_fits": "Up to £3k for ECRs to undertake a collaborative lab visit — no nationality restriction, JEB is the best-fit journal. Concrete and immediately actionable.",
+    "eligibility_notes": "",
+    "deadline": "rolling / journal-specific",
+    "institution": "",
+    "warm_tie": null,
+    "approved_at": "2026-09-22"
+  },
+  "research": {
+    "note": "Grant item — research is the call page summary; see eligibility notes.",
+    "signature": null,
+    "recent": [],
+    "funders": []
+  },
+  "brief_flags": {
+    "language": "English",
+    "warm_tie": null
+  },
+  "safe": "Company_of_Biologists___Travelling_Fellowships",
+  "date": "2026-09-22"
+}

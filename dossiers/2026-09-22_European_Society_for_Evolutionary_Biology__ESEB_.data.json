@@ -1,0 +1,27 @@
+{
+  "item": {
+    "id": "source::European Society for Evolutionary Biology (ESEB)",
+    "kind": "grant",
+    "title": "European Society for Evolutionary Biology (ESEB)",
+    "url": "https://eseb.org/prizes-funding/",
+    "tier": "international",
+    "why_it_fits": "Research-exchange and outreach funding; relevant on the evolution/culture angle of the profile.",
+    "eligibility_notes": "No specific open call surfaced this run — check current schemes on-site.",
+    "deadline": null,
+    "institution": "",
+    "warm_tie": null,
+    "approved_at": "2026-09-22"
+  },
+  "research": {
+    "note": "Grant item — research is the call page summary; see eligibility notes.",
+    "signature": null,
+    "recent": [],
+    "funders": []
+  },
+  "brief_flags": {
+    "language": "English",
+    "warm_tie": null
+  },
+  "safe": "European_Society_for_Evolutionary_Biology__ESEB_",
+  "date": "2026-09-22"
+}
