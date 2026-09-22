@@ -1,0 +1,27 @@
+{
+  "item": {
+    "id": "source::ASAB Research Grants",
+    "kind": "grant",
+    "title": "ASAB Research Grants",
+    "url": "https://www.asab.org/research-grants",
+    "tier": "international",
+    "why_it_fits": "Up to £10k (£15k with justification), explicitly to fund travel to conduct collaborative research or bring a collaborator to you — strong match for a methods exchange (e.g. GLM-HMM/behavioural-modelling).",
+    "eligibility_notes": "Does not usually accept applicants based in the Americas — no issue, Spain-based.",
+    "deadline": "three rounds/year — 1 Feb, 1 Jun, 1 Oct",
+    "institution": "",
+    "warm_tie": null,
+    "approved_at": "2026-09-22"
+  },
+  "research": {
+    "note": "Grant item — research is the call page summary; see eligibility notes.",
+    "signature": null,
+    "recent": [],
+    "funders": []
+  },
+  "brief_flags": {
+    "language": "English",
+    "warm_tie": null
+  },
+  "safe": "ASAB_Research_Grants",
+  "date": "2026-09-22"
+}

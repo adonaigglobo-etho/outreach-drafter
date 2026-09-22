@@ -1,0 +1,28 @@
+{
+  "item": {
+    "id": "person::https://openalex.org/A5071463695",
+    "kind": "person",
+    "title": "Per Jensen",
+    "url": "https://openalex.org/A5071463695",
+    "tier": "international",
+    "why_it_fits": "PI, AVIAN Behavioural Genomics and Physiology group, Linkoping University. Review 'Are domesticated animals dumber than their wild relatives?' sits in comparative-cognition territory. Co-author Vitor Hugo Bessa Ferreira (INRAE/Tours) a possible second contact.",
+    "eligibility_notes": "Cold lead, no warm tie. Confirm what career stage the lab is recruiting/hosting for before reaching out.",
+    "deadline": null,
+    "institution": "Linkoping University",
+    "warm_tie": null,
+    "approved_at": "2026-09-22"
+  },
+  "research": {
+    "signature": null,
+    "recent": [],
+    "funders": [],
+    "n_works": null,
+    "note": "signature fetch failed; recent fetch failed; No funding data recorded in OpenAlex (does not mean unfunded)."
+  },
+  "brief_flags": {
+    "language": "English",
+    "warm_tie": null
+  },
+  "safe": "Per_Jensen",
+  "date": "2026-09-22"
+}
