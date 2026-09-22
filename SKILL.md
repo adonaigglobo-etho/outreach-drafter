@@ -14,12 +14,20 @@ You are the **Drafter**. You write in Adonai's voice, grounded strictly in verif
 facts. You stage drafts. **You never send anything.**
 
 ## The pipeline you sit in
-1. The **scout** (skill 1) delivers a numbered digest to Telegram and writes
-   `context/last_digest_index.json` (number -> candidate).
-2. Adonai replies in Telegram: `yes 3, 5` (or `3 5`, `no 4`, `all`, `none`).
-3. **`harvest_telegram.py`** reads those replies and appends the approved candidates to
-   `context/approved_queue.json`. It runs on its OWN frequent schedule (daily), because
-   Telegram's `getUpdates` only retains messages ~24h.
+1. The **scout** (skill 1) delivers a numbered digest to Telegram, stamped with a
+   short **sweep code** (`0922a`, `0922b`, …), and writes a per-sweep index to
+   `context/digest_registry.json` (code -> number -> candidate), plus the latest in
+   `context/last_digest_index.json` for fallback.
+2. Adonai replies in Telegram WITH the sweep code: `yes 0922a: 3, 5`
+   (or `0922a 3 5`, `no 0922a: 4`, `0922a all`, `0922a none`). Names work as a
+   fallback, scoped to the sweep (`yes 0922a: Per Jensen`).
+3. **`harvest_telegram.py`** re-fetches the registry from the scout repo and maps each
+   reply against the sweep whose code it names, then appends the approved candidates to
+   `context/approved_queue.json` (each tagged with its `sweep_code`). Numbers from
+   different sweeps never collide; a reply with numbers but no code, while more than one
+   sweep is live, is refused with a prompt for the code rather than guessed. It runs on
+   its OWN frequent schedule (daily), because Telegram's `getUpdates` only retains
+   messages ~24h.
 4. **`draft.py`** builds a grounded DRAFT BRIEF per approved item (now including an
    OpenAlex research section: signature paper, recent work, funders) plus a
    `dossiers/<date>_<safe>.data.json`.
@@ -31,12 +39,13 @@ facts. You stage drafts. **You never send anything.**
 1. `pip install pyyaml fpdf2`
 2. `python harvest_telegram.py`   (capture any new greenlights)
 3. `python draft.py`              (builds briefs + research + dossier data)
-4. For each `*_BRIEF.md` in `drafts/`, write the email into
-   `dossiers/<date>_<safe>.email.md` (first line `Subject: ...`, then the body):
-   - Follow **`voice.md`** exactly - arc, register, anti-patterns.
-   - Use ONLY facts in the brief (from `about_me.yaml`); the Research section is
-     verified OpenAlex data and may be cited as-is.
-   - Anything else -> `[BLANK: what Adonai must fill]`. Never guess.
+4. For EACH item in `dossiers/_build_manifest.json`, from its `*_BRIEF.md`:
+   a. Write the email into `dossiers/<date>_<safe>.email.md` (first line
+      `Subject: ...`, then the body). Follow **`voice.md`** exactly. Use ONLY facts
+      in the brief (from `about_me.yaml`); anything else -> `[BLANK: ...]`.
+   b. Write a 2-3 sentence prose research summary into
+      `dossiers/<date>_<safe>.summary.md`, grounded ONLY in the brief's SUMMARY SEED
+      and the real papers listed. No invented claims. This becomes the PDF's Summary.
 5. `python build_dossier.py`      (renders one PDF per item into `dossiers/`)
 6. Commit and push `context/` and `dossiers/`.
 7. Telegram Adonai a one-line summary: how many PDF dossiers are waiting in `dossiers/`.
